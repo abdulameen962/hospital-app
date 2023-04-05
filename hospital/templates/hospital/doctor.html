@@ -1,0 +1,45 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} Doctor {{user.username}} {% endblock  %}
+{% block body %}
+<h2>Welcome {{user.first_name}} {{user.last_name}}</h2><br/>
+<div class="patient-appointment">
+    <header>
+        <h3> Upcoming appointments </h3>
+    </header>
+    <div class="table-responsive table-container">
+        <table class="table doc-available">
+            <thead>
+              <tr>
+                <th scope="col">Patient</th>
+                <th scope="col">Startdate</th>
+                <th scope="col">End date</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody id="patients">
+                {% for appoint in appointments %}
+                    <tr>
+                        <td><img src="{{ appoint.patient.profilepic.url }}" alt="{{ appoint.patient.first_name }}"/><span>{{ appoint.patient.first_name }} {{ appoint.patient.last_name }}</span></td>
+                        <td>{{ appoint.appointment.startdate }}</td>
+                        <td>{{ appoint.appointment.enddate }}</td>
+                        <td><button class="btn btn-warning text-white">Ongoing</button></td>
+                    </tr>
+                {% empty %}
+                    <tr><td>You don't have any upcoming appointments for now</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% if max_page > 1 %}
+<nav aria-label="Page navigation example" class="pagination">
+    <ul class="pagination">
+    <li class="page-item previous"><p class="page-link">Previous</p></li>
+    {% for i in page_range %}
+        <li class="page-item numbers" onclick="getPatientAppointment({{ i }},,{{ max_page }})"><p class="page-link"> {{ i }} </p></li>
+    {% endfor %}
+    <li class="page-item next" onclick="getPatientAppointment(2,{{ max_page }})"><p class="page-link">Next</p></li>
+    </ul>
+</nav>
+{% endif %}
+{% endblock  %}

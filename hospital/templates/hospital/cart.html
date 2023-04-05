@@ -1,0 +1,54 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} Cart {% endblock  %}
+{% block body %}
+<div class="pharmacy">
+    <div class="pharmacy-main">
+        <header>
+            <h2>Drugs added to cart</h2>
+            <p class="text-danger">Pls remember all these drugs are not real as this is a test app webapp</p>
+        </header>
+        <div class="drugs">
+            {% for drug in cart %}
+                    <div class="drug">
+                        <div class="row drug-top">
+                            <div class="drug-top-image">
+                                <img src="{{ drug.drug.drugpic.url }}" alt="{{ drug.drug.name }}"/>
+                            </div>
+                        </div>
+                        <div class="drug-bottom">
+                            <div class="drug-top-text">
+                                <h3> {{ drug.drug.name }} </h3>
+                            </div>
+                            <p class="drug-descr"> {{ drug.drug.descr }} </p>
+                            <p class="drug-price">Amount ordered: {{ drug.amount }} piece(s) </p>
+                            <p class="drug-price">Total amount: ${{ drug.itemprice }} </p>
+                            <p class="drug-price">Price per piece: ${{ drug.drug.price }} </p>
+                            <form enctype="multipart/form-data" target="stopperframe" id="checkout-form" method="POST" onsubmit="submitCheckout(event, {{drug.drug.id}})">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <label for="order_pieces" class="form-label">How many pieces</label>
+                                    <input type="number" name="order_pieces" class="form-control" required/>
+                                </div>
+                                <input type="submit" class="btn btn-primary" value="Change amount ordered">
+                            </form>
+                            <button class="btn btn-primary" data-removed="Remove from cart" data-added="Add to cart" onclick="addCart(event, {{ drug.drug.id }})">Remove from cart</button>
+                        </div>
+                    </div>
+            {% empty %}
+                <p>You have not ordered any drugs yet. <a href="{% url 'hospital:pharmacy' %}">Order drugs</a></p> 
+            {% endfor %}
+        </div> 
+    </div>
+    {% if max_page > 1 %}
+    <nav aria-label="Page navigation example" class="pagination">
+        <ul class="pagination">
+        <li class="page-item previous"><p class="page-link">Previous</p></li>
+        {% for i in page_range %}
+            <li class="page-item numbers" onclick="getCart({{ i }},,{{ max_page }})"><p class="page-link"> {{ i }} </p></li>
+        {% endfor %}
+        <li class="page-item next" onclick="getCart(2,{{ max_page }})"><p class="page-link">Next</p></li>
+        </ul>
+    </nav>
+    {% endif %}
+</div>
+{% endblock %}

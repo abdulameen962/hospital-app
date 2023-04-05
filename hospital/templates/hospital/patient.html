@@ -1,0 +1,43 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} Patient {% endblock  %}
+{% block body %}
+<div class="patient_dashboard">
+    <div class="patient-header">
+        <h2 data-name="{{ user.username }}" id="welcome">Welcome {{user.first_name}} {{user.last_name}}</h2>
+        <iframe frameborder="0" style="display:none" id="stopperframe"></iframe>
+        <form method="POST" data-search="name" target="stopperframe" onsubmit="submitSearch(event)">
+           {% csrf_token %}
+           <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping"> <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.01117 19.729L1.74141 25L-7.98649e-07 23.2586L5.27099 17.9888C3.69915 16.028 2.84421 13.5892 2.84779 11.0761C2.84779 4.9621 7.80988 0 13.9239 0C20.0379 0 25 4.9621 25 11.0761C25 17.1901 20.0379 22.1522 13.9239 22.1522C11.4108 22.1558 8.97197 21.3009 7.01117 19.729ZM7.92434 17.2603C9.53051 18.8221 11.6835 19.6944 13.9239 19.6909C18.6842 19.6909 22.5386 15.8351 22.5386 11.0761C22.5386 6.31584 18.6842 2.46136 13.9239 2.46136C9.16486 2.46136 5.30914 6.31584 5.30914 11.0761C5.30562 13.3165 6.17787 15.4695 7.73974 17.0757L7.92434 17.2603Z" fill="#64607D"/>
+                    </svg>
+                </span>                    
+                <input type="text" class="form-control" aria-describedby="search-addon" placeholder="Search for doctors,based on names,description or skills" name="search" required onfocus="showSearchOptions(event)"/>
+            </div>
+           <ul class="searchoptions">
+            <li data-search="name">Name</li>
+            <li data-search="skills">Skills</li>
+            <li data-search="descr">Description</li>
+           </ul>
+        </form>
+    </div>
+    <div class="patient-main">
+        <header> 
+            <h3>Available Doctors</h3>
+        </header>
+        <div id="doctors">
+            
+        </div>
+        <div class="doctor-single" style="opacity:0;">
+            
+        </div>
+    </div>
+
+</div>
+{% endblock  %}
+{% block script %}
+<script>
+    document.addEventListener("DOMContentLoaded", DocProfile(1, {{max_num}}))
+</script>
+
+{% endblock  %}

@@ -1,0 +1,33 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} {{user.username}}'s appointments {% endblock  %}
+{% block body %}
+<div class="patient-appointment">
+    <header>
+        <h3>Appointments you have made with doctors</h3>
+    </header>
+    <div class="table-responsive table-container">
+        <table class="table doc-available">
+            <thead>
+              <tr>
+                <th scope="col">Doctor</th>
+                <th scope="col">Startdate</th>
+                <th scope="col">End date</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                {% for appoint in appointments %}
+                    <tr>
+                        <td><img src="{{ appoint.doctor.profilepic.url }}" alt="{{ appoint.doctor.first_name }}"/><span>Dr {{ appoint.doctor.first_name }} {{ appoint.doctor.last_name }}</span></td>
+                        <td>{{ appoint.startdate }}</td>
+                        <td>{{ appoint.enddate }}</td>
+                        <td><button class="btn btn-primary" onclick="removeAppointment(event,{{ appoint.id }})" data-remove="Remove appointment" data-add="Add appointment">Remove appointment</button></td>
+                    </tr>
+                {% empty %}
+                    <tr><td>You have not made any appointment yet. <a href="{% url 'hospital:patient' %}">Add now</td></a></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock  %}

@@ -1,0 +1,279 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} Profile of {{ user.username }} {% endblock  %}
+{% block body %}
+<div class="profile-top row">
+    <div class="image col-sm-12 col-md-4 col-lg-3">
+        <img src="../..{{ user.profilepic.url }}" alt="{{ user.username }}" />
+    </div>
+        {% if user.role == "Doctor" %}
+            <div class="text col-sm-12 col-md-8 col-lg-9">
+                <h2>Your personal information</h2>
+                <h3>Name: Dr {{ user.first_name }} {{ user.last_name }}</h3>
+                <h3>Username: {{ user.username }}</h3>
+                <p>You joined this platform {{ user.date_joined }} </p>
+                <p> {{ info.descr }} </p>
+                <ul class="skills">
+                    {% for info in skills %}
+                        <li>{{ info.skill }}({{info.code}})</li>
+                        {% empty %}
+                        <li>No chosen skill yet</li>
+                    {% endfor %}
+                </ul>
+                <div class="buttons">
+                    <button class="btn btn-primary" onclick="changePassword(event)" data-loading="Please wait..." data-loaded="Change password" >Change password</button>
+                    <a class="btn btn-primary edit-profile" href="{% url 'hospital:edit_profile' %}">Edit profile</a>
+                </div>
+            </div>
+            </div>
+            <div class="profile-bottom">
+                <div class="patient-appointment">
+                    <header>
+                        <h3> Patients that made appointments </h3>
+                    </header>
+                    <div class="table-responsive table-container">
+                        <table class="table doc-available">
+                            <thead>
+                              <tr>
+                                <th scope="col">Patient</th>
+                                <th scope="col">Startdate</th>
+                                <th scope="col">End date</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for appoint in appointments %}
+                                    <tr>
+                                        <td><img src="{{ appoint.patient.profilepic.url }}" alt="{{ appoint.patient.first_name }}"/><span>{{ appoint.patient.first_name }} {{ appoint.patient.last_name }}</span></td>
+                                        <td>{{ appoint.appointment.startdate }}</td>
+                                        <td>{{ appoint.appointment.enddate }}</td>
+                                        <td><button class="btn btn-warning text-white">Ongoing</button></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td>You don't have any upcoming appointments for now</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="patient-appointment">
+                    <header>
+                        <h3> Created Appointments </h3>
+                    </header>
+                    <div class="table-responsive table-container">
+                        <table class="table doc-available">
+                            <thead>
+                              <tr>
+                                <th scope="col">Startdate</th>
+                                <th scope="col">End date</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for appoint in availables %}
+                                    <tr>
+                                        <td>{{ appoint.startdate }}</td>
+                                        <td>{{ appoint.enddate }}</td>
+                                        <td><button class="btn btn-success text-white">Created</button></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td>You have not made any appointment now <a href="{% url 'hospital:available' %}">Make appointments</a></td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="patient-appointment">
+                    <header>
+                        <h3> Completed Appointments </h3>
+                    </header>
+                    <div class="table-responsive table-container">
+                        <table class="table doc-available">
+                            <thead>
+                              <tr>
+                                <th scope="col">Patient</th>
+                                <th scope="col">Startdate</th>
+                                <th scope="col">End date</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for appoint in completed %}
+                                    <tr>
+                                        <td><img src="{{ appoint.patient.profilepic.url }}" alt="{{ appoint.patient.first_name }}"/><span>{{ appoint.patient.first_name }} {{ appoint.patient.last_name }}</span></td>
+                                        <td>{{ appoint.appointment.startdate }}</td>
+                                        <td>{{ appoint.appointment.enddate }}</td>
+                                        <td><button class="btn btn-success text-white">Completed</button></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td>You have not completed any appointments yet</td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        {% elif user.role == "Patient" %}
+            <div class="text col-sm-12 col-md-8 col-lg-9">
+                <h2>Your personal information</h2>
+                <h3>Name: {{ user.first_name }} {{ user.last_name }}</h3>
+                <h3>Username: {{ user.username }}</h3>
+                <p>You joined this platform {{ user.date_joined }} </p>
+                <p>You have {{ appointments |length }} current appointments</p>
+                <p>You have completed {{ completed|length }} appointments</p>
+                <p>You have {{ cart|length }} items in your cart and have successfully ordered {{ successful_orders|length }} items </p>
+                <div class="buttons">
+                    <button class="btn btn-primary" onclick="changePassword(event)" data-loading="Please wait..." data-loaded="Change password" >Change password</button>
+                    <a class="btn btn-primary edit-profile" href="{% url 'hospital:edit_profile' %}">Edit profile</a>
+                </div>
+            </div>
+</div>
+            <div class="profile-bottom">
+                <div class="patient-appointment">
+                    <header>
+                        <h3>Your ongoing appointments</h3>
+                    </header>
+                    <div class="table-responsive table-container">
+                        <table class="table doc-available">
+                            <thead>
+                              <tr>
+                                <th scope="col">Doctor</th>
+                                <th scope="col">Startdate</th>
+                                <th scope="col">End date</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for appoint in appointments %}
+                                    <tr>
+                                        <td><img src="{{ appoint.doctor.profilepic.url }}" alt="{{ appoint.doctor.first_name }}"/><span>Dr {{ appoint.doctor.first_name }} {{ appoint.doctor.last_name }}</span></td>
+                                        <td>{{ appoint.startdate }}</td>
+                                        <td>{{ appoint.enddate }}</td>
+                                        <td><button class="btn btn-warning text-white">Ongoing</button></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td>You have not made any appointment yet. <a href="{% url 'hospital:patient' %}">Add now</a></td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="patient-appointment">
+                    <header>
+                        <h3>Completed Appointments</h3>
+                    </header>
+                    <div class="table-responsive table-container">
+                        <table class="table doc-available">
+                            <thead>
+                              <tr>
+                                <th scope="col">Doctor</th>
+                                <th scope="col">Startdate</th>
+                                <th scope="col">End date</th>
+                                <th scope="col">Status</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                                {% for appoint in completed %}
+                                    <tr>
+                                        <td><img src="{{ appoint.appointment.doctor.profilepic.url }}" alt="{{ appoint.appointment.doctor.first_name }}"/><span>Dr {{ appoint.appointment.doctor.first_name }} {{ appoint.appointment.doctor.last_name }}</span></td>
+                                        <td>{{ appoint.appointment.startdate }}</td>
+                                        <td>{{ appoint.appointment.enddate }}</td>
+                                        <td><button class="btn btn-success text-white">Completed</button></td>
+                                    </tr>
+                                {% empty %}
+                                    <tr><td>You have not made any appointment yet. <a href="{% url 'hospital:patient' %}">Add now</a></td></tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="pharmacy">
+                    <div class="pharmacy-main">
+                        <header>
+                            <h3>Drugs in your cart</h3>
+                        </header>
+                        <div class="drugs">
+                            {% for drug in cart %}
+                                    <div class="drug">
+                                        <div class="row drug-top">
+                                            <div class="drug-top-image">
+                                                <img src="{{ drug.drug.drugpic.url }}" alt="{{ drug.drug.name }}"/>
+                                            </div>
+                                        </div>
+                                        <div class="drug-bottom">
+                                            <div class="drug-top-text">
+                                                <h3> {{ drug.drug.name }} </h3>
+                                            </div>
+                                            <p class="drug-descr"> {{ drug.drug.descr }} </p>
+                                            <p class="drug-price">Amount ordered: {{ drug.amount }} piece(s) </p>
+                                            <p class="drug-price">Total amount: ${{ drug.itemprice }} </p>
+                                            <p class="drug-price">Price per piece: ${{ drug.drug.price }} </p>
+                                        </div>
+                                    </div>
+                            {% empty %}
+                                <p>You have not ordered any drugs yet. <a href="{% url 'hospital:pharmacy' %}">Order drugs</a></p> 
+                            {% endfor %}
+                        </div> 
+                    </div>
+                </div>
+                <div class="pharmacy">
+                    <div class="pharmacy-main">
+                        <header>
+                            <h3>Your successful orders</h3>
+                        </header>
+                        <div class="drugs">
+                            {% for drug in successful_orders %}
+                                    <div class="drug">
+                                        <div class="row drug-top">
+                                            <div class="drug-top-image">
+                                                <img src="{{ drug.drug.drugpic.url }}" alt="{{ drug.drug.name }}"/>
+                                            </div>
+                                        </div>
+                                        <div class="drug-bottom">
+                                            <div class="drug-top-text">
+                                                <h3> {{ drug.drug.name }} </h3>
+                                            </div>
+                                            <p class="drug-descr"> {{ drug.drug.descr }} </p>
+                                            <p class="drug-price">Amount ordered: {{ drug.amount }} piece(s) </p>
+                                            <p class="drug-price">Total amount: ${{ drug.itemprice }} </p>
+                                            <p class="drug-price">Price per piece: ${{ drug.drug.price }} </p>
+                                        </div>
+                                    </div>
+                            {% empty %}
+                                <p>You have not successfully ordered any drugs yet. <a href="{% url 'hospital:pharmacy' %}">Order drugs</a></p> 
+                            {% endfor %}
+                        </div> 
+                    </div>
+                </div>
+                <div class="pharmacy">
+                    <div class="pharmacy-main">
+                        <header>
+                            <h3>Your cancelled orders</h3>
+                        </header>
+                        <div class="drugs">
+                            {% for drug in cancelled_orders %}
+                                    <div class="drug">
+                                        <div class="row drug-top">
+                                            <div class="drug-top-image">
+                                                <img src="{{ drug.drug.drugpic.url }}" alt="{{ drug.drug.name }}"/>
+                                            </div>
+                                        </div>
+                                        <div class="drug-bottom">
+                                            <div class="drug-top-text">
+                                                <h3> {{ drug.drug.name }} </h3>
+                                            </div>
+                                            <p class="drug-descr"> {{ drug.drug.descr }} </p>
+                                            <p class="drug-price">Amount ordered: {{ drug.amount }} piece(s) </p>
+                                            <p class="drug-price">Total amount: ${{ drug.itemprice }} </p>
+                                            <p class="drug-price">Price per piece: ${{ drug.drug.price }} </p>
+                                        </div>
+                                    </div>
+                            {% empty %}
+                                <p>You don't have any cancelled orders yet.</p> 
+                            {% endfor %}
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+</div>
+{% endblock  %}

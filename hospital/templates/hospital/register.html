@@ -1,0 +1,128 @@
+{% extends 'hospital/layout.html' %} 
+{% load static %}
+{% block title %} Register {% endblock %} {% block body %}
+<div class="register">
+    <h2>Register</h2>
+
+    {% if message %}
+        <div class="message">{{ message }}</div>
+    {% endif %}
+
+    <form action="{% url 'hospital:register' %}" class="needs-validation" method="POST" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <div class="form-group">
+            <input autofocus class="form-control" type="text" name="username" placeholder="Username" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter your username
+            </div>
+        </div>
+        <div class="form-group">
+            <input class="form-control" type="email" name="email" placeholder="Enter email" required aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter your email address
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="text" name="first_name" placeholder="Enter first name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Enter your first name
+                </div>
+            </div>
+            <div class="col">
+                <input class="form-control" type="text" name="last_name" placeholder="Enter last name" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Enter your last name
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="profilepic" class="form-label"> Add your profile picture:</label>
+            <input class="form-control" type="file" name="profilepic" accept="image/*" placeholder="Upload your picture" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Choose a profilepic
+            </div>
+        </div>
+        <div class="form-group">
+            <select name="role" class="form-select" id="role" onchange="DoctorInput(event)">
+                <option selected disabled>Choose role</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Patient">Patient</option>
+            </select>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Choose a role
+            </div>
+        </div>
+        <div id="doctor">
+            <div class="form-group">
+                <textarea name="descr" class="form-control" placeholder="Add a short description about you(maxiumum 250 words)" maxlength="250"></textarea>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Give a brief description of yourself
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="skills">Choose skill(s):</label><br/>
+                <select class="form-select" name="skills" id="skills" multiple>
+                </select>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                    <div class="invalid-feedback">
+                        Choose at least a skill
+                    </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <input class="form-control" type="password" name="password" placeholder="Password" aria-describedby="passwordHelpBlock" required>
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Enter your password
+                </div>
+            </div>
+            <div class="col">
+                <input class="form-control" type="password" name="confirmation" placeholder="Confirm password" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Confirm your password
+                </div>
+            </div>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Register">
+    </form>
+
+    <p class="subtitle">Already have an account? <a href="{% url 'hospital:login' %}" class="subtitle">Login here.</a></p>
+</div>
+{% endblock %}
+{% block script %}
+<script src="{% static 'hospital/js/form.js' %}"></script>
+{% endblock  %}

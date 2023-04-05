@@ -1,0 +1,62 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} Pharmacy {% endblock  %}
+{% block body %}
+<div class="pharmacy">
+    <iframe frameborder="0" style="display:none;" id="stopperframe"></iframe>
+    <div class="pharmacy-header">
+        <form method="POST" target="stopperframe" onsubmit="searchDrugs(event)">
+            {% csrf_token %}
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.01117 19.729L1.74141 25L-7.98649e-07 23.2586L5.27099 17.9888C3.69915 16.028 2.84421 13.5892 2.84779 11.0761C2.84779 4.9621 7.80988 0 13.9239 0C20.0379 0 25 4.9621 25 11.0761C25 17.1901 20.0379 22.1522 13.9239 22.1522C11.4108 22.1558 8.97197 21.3009 7.01117 19.729ZM7.92434 17.2603C9.53051 18.8221 11.6835 19.6944 13.9239 19.6909C18.6842 19.6909 22.5386 15.8351 22.5386 11.0761C22.5386 6.31584 18.6842 2.46136 13.9239 2.46136C9.16486 2.46136 5.30914 6.31584 5.30914 11.0761C5.30562 13.3165 6.17787 15.4695 7.73974 17.0757L7.92434 17.2603Z" fill="#64607D"/>
+                    </svg>    
+                </span>
+                <input type="text" autofocus name="drug_search" required class="form-control" placeholder="Search for name,description"/>
+            </div>
+        </form>
+        <div class="reset">
+            <button class="btn btn-primary" onclick="getDrugs(1,{{pagemax}})">Reset search</button>
+        </div>
+    </div>
+    <div class="pharmacy-main">
+        <header>
+            <h2>Pharmacy</h2>
+            <p class="text-danger">Pls remember all these drugs are not real as this is a test app webapp</p>
+        </header>
+        <div class="drugs">
+            {% for drug in pharmacy %}
+                <div class="drug">
+                    <div class="drug-top">
+                        <div class="drug-top-image">
+                            <img src="{{ drug.drugpic.url }}" alt="{{ drug.name }}"/>
+                        </div>
+                    </div>
+                    <div class="drug-bottom">
+                        <div class="drug-top-text">
+                            <h3> {{ drug.name }} </h3>
+                        </div>
+                        <p class="drug-descr"> {{ drug.descr }} </p>
+                        <p class="drug-price">Price: ${{ drug.price }} a piece </p>
+                        <button class="btn btn-primary" data-viewed="Close details" data-view="View details" onclick="viewDrug(event,{{ drug.id }})">View details</button>
+                    </div>
+                </div>
+            {%empty%}
+                <p>No available drugs yet,check back later</p>
+            {% endfor %}
+        </div>
+        <div id="drug-single"></div>
+        {% if pagemax > 1 %}
+        <nav class="pagination">
+            <ul class="pagination">
+                <li class="page-item previous"><p class="page-link">Previous</p></li>
+                {% for i in page_range %}
+                    <li class="page-item numbers" onclick="getDrugs({{ i }}, {{ pagemax }})"><p class="page-link"> {{ i }} </p></li>
+                {% endfor %}
+                <li class="page-item next" onclick="getDrugs(2, {{ pagemax }})"><p class="page-link">Next</p></li>
+            </ul>
+        </nav>
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

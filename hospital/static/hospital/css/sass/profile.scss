@@ -1,0 +1,60 @@
+div.profile-top {
+    @include patientbottom;
+    margin: 0px;
+    &>div.image {
+        @include mp;
+        padding: 20px 0px 0px 0px;
+        &>img {
+            border-radius: 10px;
+            min-width: 260px;
+            box-shadow: $imagestand;
+            @include respond(lphone) {
+                min-width: 220px;
+            }
+        }
+    }
+    &>div.text {
+        p {
+            @include mp;
+            font-size: 18px;
+            line-height: 1.6em;
+            @include respond(lphone) {
+                font-size: 16px;
+            }
+        }
+        ul.skills {
+            li {
+                @include skillchange;
+            }
+        }
+        div.buttons {
+            margin: 10px 0px 0px 0px;
+            @include flex(no);
+            justify-content: flex-start;
+            @include respond(phone) {
+                @include flex(yes);
+                align-items: flex-start;
+            }
+            a.edit-profile {
+                margin-left: 10px;
+                @include respond(phone) {
+                    margin-left: 0px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}
+
+div.profile-bottom {
+    margin: 20px 0px;
+    &>div {
+        margin: 40px 0px;
+    }
+    div.carts {
+        @include patientbottom;
+        margin: 20px 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

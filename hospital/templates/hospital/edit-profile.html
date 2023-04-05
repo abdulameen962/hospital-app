@@ -1,0 +1,84 @@
+{% extends 'hospital/layout.html' %} 
+{% load static %}
+{% block title %}Edit your profile{% endblock %} {% block body %}
+<div class="edit">
+    {% if message %}
+    <div class="message">{{ message }}</div>
+    
+    {% endif %}
+    
+    <form method="POST" actioon="hospital:edit_profile" class="needs-validation" enctype="multipart/form-data" novalidate>
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="username"> Username: </label>
+            <input autofocus class="form-control" type="text" value="{{ user.username }}" name="username" placeholder="Username" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter your username
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="first_name"> First Name: </label>
+            <input class="form-control" type="text" value="{{ user.first_name }}" name="first_name" placeholder="First name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter your first name
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="last_name"> Last Name: </label>
+            <input class="form-control" type="text" value="{{ user.last_name }}" name="last_name" placeholder="Last name" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Enter your last name
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="profilepic"> Profile picture: </label>
+            <input class="form-control" type="file" accept="image/*"  name="profilepic" placeholder="Profile picture">
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+            <div class="invalid-feedback">
+                Choose your profilepic
+            </div>
+        </div>
+        {% if user.role == "Doctor" %}
+            <div class="form-group">
+                <label for="profilepic"> Description: </label><br/>
+                <textarea name="descr" class="form-control" placeholder="Add a short description about you" maxlength="250" required> {{ profile.descr }} </textarea>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Edit your description
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="skills">Edit skill(s):</label><br/>
+                <select name="skills" class="form-select" id="skills" multiple required>
+                    {% for skill in skills %}
+                        <option value="{{ skill.skill }}"> {{ skill.skill }}({{ skill.code}}) </option>
+                    {% endfor %}
+                </select>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Choose at least one skill
+                </div>
+            </div>
+        {% endif %}
+        <input type="submit" value="Complete Edit" class="btn btn-primary" />
+    </form>
+</div>
+{% endblock %}
+{% block script %}
+<script src="{% static 'hospital/js/form.js' %}"></script>
+{% endblock  %}

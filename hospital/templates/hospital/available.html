@@ -1,0 +1,68 @@
+{% extends 'hospital/layout.html' %}
+{% block title %} {{ user.username }}'s Availability {% endblock  %}
+{% block body %}
+<iframe frameborder="0" style="display:none" id="stopperframe"></iframe>
+<h2>Availability</h2><br/>
+<div class="add_availability">
+    <header>
+       <h3> Add new availability </h3>
+    </header>
+    <div class="available_bottom">
+        <button class="btn btn-primary" data-change="Remove form" data-changed="Add new availability" id="availbtn" onclick="showAdd(event)">Add new availability</button>
+        <form method="POST" id="availableform" target="stopperframe" onsubmit="addAvailability(event)">
+            <p id="formerror"></p>
+            {% csrf_token %}
+            <div class="form-group">
+                <input type="text" class="form-control" name="datetimes" value="" required />
+            </div>
+            <input type="submit" name="submit" class="btn btn-primary" value="Add new date" data-loading="Adding new date" data-loaded="Add new date"/>
+        </form>
+    </div>
+</div>
+<div class="patient-appointment available_appointment">
+    <header>
+        <h3> Current available dates you made </h3>
+    </header>
+    <div class="table-responsive table-container">
+        <table class="table doc-available">
+            <thead>
+              <tr>
+                <th scope="col">Startdate</th>
+                <th scope="col">End date</th>
+                <th scope="col">Status</th>
+              </tr>
+            </thead>
+            <tbody class="available">
+                {% for appoint in availables %}
+                    <tr>
+                        <td>{{ appoint.startdate }}</td>
+                        <td>{{ appoint.enddate }}</td>
+                        <td><button class="btn btn-primary" onclick="removeAvailabilty(event,{{ appoint.id }})">Remove availability</button></td>
+                    </tr>
+                {% empty %}
+                    <tr><td>You have not made any appointment now</td></tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock  %}
+{% block script %}
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+<script>
+    $(function() {
+        $('input[name="datetimes"]').daterangepicker({
+          timePicker: true,
+          startDate: moment().startOf('hour'),
+          endDate: moment().startOf('hour').add(32, 'hour'),
+          locale: {
+            format: 'M/DD/YYYY hh:mm A',
+            cancelLabel: 'Clear'
+          }
+        });
+      });
+</script>
+{% endblock  %}

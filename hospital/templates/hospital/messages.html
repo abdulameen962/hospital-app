@@ -1,0 +1,55 @@
+{% extends 'hospital/layout.html' %}
+{% block title %}Your messages{% endblock  %}
+{% block body %}
+{% if user.is_authenticated and user.is_email_verified %}
+    <div class="notifications">
+        <header>
+            <h2>Notifications</h2>
+        </header>
+        <div class="messages_container">
+            {% for message in messages %}
+            {% if message.read == True %}
+                <div class="message read row">
+                    <div class="text col-sm-12 col-md-9 col-lg-9">
+                        <h4>{{ message.subject }}</h4>
+                        <p>{{ message.timestamp }}</p>
+                    </div>
+                    <div class="action col-sm-12 col-md-3 col-lg-3">
+                        <button class="btn btn-primary" onclick="viewMessage(event,{{ message.id }})">View details</button>
+                    </div>
+                </div>
+            {% elif message.read == False %}
+                <div class="message unread row">
+                    <div class="text col-sm-12 col-md-9 col-lg-9">
+                        <h4>{{ message.subject }}</h4>
+                        <p>{{ message.timestamp }}</p>
+                    </div>
+                    <div class="action col-sm-12 col-md-3 col-lg-3">
+                        <button class="btn btn-primary" onclick="viewMessage(event,{{ message.id }})">View details</button>
+                    </div>
+                </div>
+            {% endif %}
+    
+            {% empty %}
+                <p>No messages for you yet</p>
+            {% endfor %}
+        </div>
+        <div class="message-single">
+            
+        </div>
+        {% if maxpage > 1 %}
+            <nav aria-label="Page navigation example" class="pagination">
+                <ul class="pagination">
+                <li class="page-item previous"><p class="page-link">Previous</p></li>
+                {% for i in page_range %}
+                    <li class="page-item numbers" onclick="getMessages({{ i }},{{ maxpage }})"><p class="page-link"> {{ i }} </p></li>
+                {% endfor %}
+                <li class="page-item next" onclick="getMessages(2,{{ maxpage }})"><p class="page-link">Next</p></li>
+                </ul>
+            </nav>
+        {% endif %}
+    </div>
+    {% else %}
+      <p>You are not meant to be here</p>
+{% endif %}
+{% endblock  %}

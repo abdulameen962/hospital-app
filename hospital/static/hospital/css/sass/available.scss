@@ -1,0 +1,33 @@
+div.add_availability {
+    @include mp;
+    @include patientbottom;
+    // margin-top: 20px;
+    padding: 25px 0px;
+    border-radius: 20px;
+    &>header {
+        padding: 0px 15px 15px 15px;
+        border-bottom: 1px solid $lightgrey;
+    }
+    div.available_bottom {
+        @include mp;
+        padding: 15px 15px;
+        button {
+            font-size: 18px;
+            padding: 10px 15px;
+            @include respond(lphone) {
+                font-size: 16px;
+            }
+        }
+        form {
+            margin: 20px 0px;
+            input[type="submit"] {
+                margin-top: 15px;
+                padding: 10px 15px;
+            }
+        }
+    }
+}
+
+div.available_appointment {
+    margin-top: 30px;
+}

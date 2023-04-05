@@ -1,0 +1,906 @@
+@import 'mixins';
+@import "rules";
+div.home-main {
+    margin: 70px 0px;
+    @include respond(tab) {
+        margin: 40px 0px;
+    }
+    @include respond(phone) {
+        margin: 20px 0px;
+    }
+    &>div.text {
+        h1 {
+            line-height: 1.350em;
+        }
+        div.blocks {
+            margin: 35px 0px;
+            @include respond(tab) {
+                margin: 15px 0px;
+            }
+            div.block {
+                @include mp;
+                margin: 10px 0px;
+                cursor: pointer;
+                border-radius: 22px;
+                align-items: center;
+                padding: 22px 5px;
+                transition: all 0.5s ease;
+                @include glass;
+                &:hover {
+                    box-shadow: 0px 15px 40px rgba(0, 0, 0, .1);
+                    background: white;
+                }
+                @include respond(lphone) {
+                    box-shadow: 0px 15px 10px rgba(0, 0, 0, .05);
+                    background: white;
+                    margin: 25px 0px;
+                }
+                &_image {
+                    // @include border(blue);
+                    @include mp;
+                    @include flex(no);
+                    @include respond(tab) {
+                        justify-content: flex-start;
+                    }
+                    @include respond(lphone) {
+                        justify-content: center;
+                    }
+                    div.image-container {
+                        padding: 10px;
+                        min-width: 70%;
+                        max-width: 90%;
+                        background: $white;
+                        @include flex(no);
+                        border-radius: 5px;
+                        box-shadow: 10px 12px 20px rgba(0, 0, 0, .05);
+                        @include respond(lphone) {
+                            box-shadow: none;
+                            justify-content: flex-start;
+                            padding-left: 0px;
+                            max-width: 100%;
+                            width: 100%;
+                        }
+                        span {
+                            color: $orangeheader;
+                            font-size: 25px;
+                        }
+                        svg.icon {
+                            width: 40px;
+                            height: 32px;
+                            path {
+                                fill: $orangeheader;
+                            }
+                        }
+                    }
+                }
+                &_text {
+                    // @include border(green);
+                    @include mp;
+                    padding: 0px 0px 0px 15px;
+                    @include flex(yes);
+                    align-items: flex-start;
+                    @include respond(tab) {
+                        @include mp;
+                    }
+                    h6 {
+                        @include mp;
+                        padding-bottom: 5px;
+                    }
+                    p {
+                        font-size: 13px;
+                        @include mp;
+                        color: $textgrey;
+                    }
+                }
+            }
+        }
+    }
+    &>div.image {
+        position: relative;
+        @include mp;
+        @include respond(tab) {
+            height: 600px;
+        }
+        @include respond(lphone) {
+            height: auto;
+        }
+        img.background {
+            width: 550px;
+            height: 600px;
+            border-radius: 30px;
+            position: absolute;
+            top: -30px;
+            right: 40px;
+            z-index: -3;
+            @include respond(tab) {
+                top: 0px;
+                right: 90px;
+            }
+            @include respond(lphone) {
+                position: relative;
+                right: 0px;
+                z-index: 1;
+                height: auto;
+                @include mp;
+                max-width: 100%;
+            }
+        }
+        div.intro {
+            width: 250px;
+            border-radius: 15px;
+            background: white;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, .05);
+            padding: 15px 15px;
+            position: absolute;
+            top: 15px;
+            left: 80px;
+            cursor: pointer;
+            &:hover {
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, .05);
+            }
+            @include respond(tab) {
+                left: 20px;
+            }
+            @include respond(lphone) {
+                position: relative;
+                top: 0px;
+                left: 0px;
+                margin: 25px 0px;
+                width: auto;
+            }
+            &_top {
+                @include mp;
+                &_left {
+                    @include mp;
+                    h6 {
+                        @include flex(no);
+                        justify-content: flex-start;
+                        span {
+                            padding-right: 5px;
+                        }
+                        svg.boost {
+                            width: 35px;
+                            height: 25px;
+                        }
+                    }
+                }
+                &_right {
+                    @include mp;
+                    svg.coin {
+                        width: 25px;
+                        height: 20px;
+                    }
+                }
+            }
+            &_bottom {
+                @include mp;
+                @include flex(no);
+                justify-content: flex-start;
+                padding-top: 5px;
+                p.producivity {
+                    @include mp;
+                    line-height: 20px;
+                    b {
+                        font-size: 32px;
+                        color: $purple;
+                    }
+                }
+                &>span {
+                    line-height: 20px;
+                    padding-left: 10px;
+                    @extend .font-weight;
+                    @include respond(lphone) {
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+        div.grid {
+            position: absolute;
+            right: -80px;
+            bottom: -30px;
+            @include respond(tab) {
+                right: 20px;
+                bottom: 30px;
+            }
+            @include respond(lphone) {
+                position: relative;
+                right: 0px;
+                bottom: 0px;
+            }
+            &>header {
+                margin-bottom: 10px;
+                h5 {
+                    @include mp;
+                }
+            }
+            &_main {
+                @include grid(4);
+                gap: 10px;
+                width: 400px;
+                @include respond(lphone) {
+                    @include grid(3);
+                    width: auto;
+                    gap: 20px 10px;
+                }
+                @include respond(phone) {
+                    @include grid(2);
+                }
+                &_single {
+                    background: white;
+                    border-radius: 10px;
+                    padding: 10px 0px;
+                    @include mp;
+                    @include flex(no);
+                    box-shadow: 0px 0px 60px rgba(0, 0, 0, .05);
+                    @include respond(lphone) {
+                        padding: 10px 0px;
+                    }
+                    &_inner {
+                        width: 45px;
+                        position: relative;
+                        @include respond(lphone) {
+                            width: 60%;
+                        }
+                        &_image {
+                            width: 100%;
+                            box-shadow: 0px 0px 30px rgba(0, 0, 0, .2);
+                            border-radius: 15px;
+                            @include respond(lphone) {
+                                box-shadow: 0px 0px 15px rgba(0, 0, 0, .05);
+                            }
+                            img {
+                                max-width: 100%;
+                                border-radius: 15px;
+                            }
+                        }
+                        &_text {
+                            margin: 10px 0px 0px 0px;
+                            p {
+                                @include mp;
+                                font-size: 15px;
+                                line-height: 20px;
+                                text-align: center;
+                                font-weight: 200;
+                            }
+                        }
+                    }
+                }
+                div.dotted {
+                    background: $orangeheader;
+                    border: 2px dashed $dark;
+                    div.dotted_image {
+                        @include mp;
+                        h3 {
+                            @include mp;
+                            font-size: 35px;
+                            text-align: center;
+                        }
+                    }
+                    div.dotted_text {
+                        @include mp;
+                        p {
+                            @extend .font-weight;
+                            font-size: 30px;
+                            text-align: center;
+                            @include mp;
+                        }
+                    }
+                }
+            }
+        }
+        div.links {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            @include respond(lphone) {
+                display: flex;
+                margin: 35px 0px 0px 0px;
+                height: auto;
+            }
+            div.link {
+                width: 40px;
+                height: 40px;
+                @include flex(no);
+                text-align: center;
+                position: absolute;
+                @include respond(lphone) {
+                    position: relative;
+                    margin: 0px 10px;
+                }
+                svg.icon {
+                    @include mp;
+                    display: block;
+                    margin: auto;
+                    width: 26px;
+                    height: 24px;
+                    path {
+                        fill: $white;
+                    }
+                }
+            }
+            div.whatsapp {
+                @include iconshadow(#86D175, #40B626);
+                top: -40px;
+                left: 330px;
+                @include respond(tab) {
+                    left: 470px;
+                    top: 0px;
+                }
+                @include respond(lphone) {
+                    top: 0px;
+                    left: 0px;
+                    transform: rotate(0deg);
+                }
+            }
+            div.email {
+                @include iconshadow(#FED978, #FDB803);
+                right: -80px;
+                top: 120px;
+                @include respond(tab) {
+                    right: 20px;
+                }
+                @include respond(lphone) {
+                    right: 0px;
+                    top: 0px;
+                    transform: rotate(0deg);
+                }
+            }
+            div.twitter {
+                @include iconshadow(#F38644, #F15B00);
+                right: -60px;
+                top: 260px;
+                @include respond(tab) {
+                    right: 60px;
+                }
+                @include respond(lphone) {
+                    right: 0px;
+                    top: 0px;
+                    transform: rotate(0deg);
+                }
+            }
+            div.linkedin {
+                @include iconshadow(#8DABCD, #1D6DC6);
+                left: 160px;
+                bottom: 30px;
+                @include respond(tab) {
+                    left: 90px;
+                    bottom: 50px;
+                }
+                @include respond(lphone) {
+                    left: 0px;
+                    top: 0px;
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+}
+
+div.middle {
+    margin: 60px 0px;
+    @include flex(no);
+    justify-content: flex-start;
+    @include respond(tab) {
+        margin: 20px 0px;
+    }
+    @include respond(lphone) {
+        flex-direction: column-reverse;
+        margin: 60px 0px;
+    }
+    & &_main_image {
+        @include respond(lphone) {
+            @include flex(no);
+        }
+        &_container {
+            background: linear-gradient(90deg, #D9D9D9 29.15%, rgba(217, 217, 217, 0.5) 100%);
+            box-shadow: 0px 0px 5px 2px #808080;
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            @include flex(no);
+            @include respond(lphone) {
+                margin-top: 20px;
+            }
+            svg {
+                width: 130px;
+                height: 125px;
+            }
+        }
+    }
+    & &_images {
+        @include grid(3);
+        gap: 40px 20px;
+        @include respond(lphone) {
+            @include grid(2);
+            gap: 30px 30px;
+        }
+        div.logo {
+            @include flex(no);
+            justify-content: flex-start;
+            img {
+                max-width: 150px;
+                min-width: 120px;
+            }
+        }
+    }
+}
+
+div.about {
+    margin: 110px 0px;
+    @include grid(3);
+    gap: 10px 45px;
+    background-image: url("../images/aboutline.svg");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position: -32px 10px;
+    position: relative;
+    @include respond(tab) {
+        @include grid(2);
+        background-image: none;
+        gap: 20px 45px;
+        margin: 0px 0px;
+    }
+    @include respond(lphone) {
+        @include grid(1);
+        gap: 0px;
+        margin: 110px 0px;
+    }
+    &>svg {
+        width: 600px;
+        height: 456px;
+        position: absolute;
+        top: -50px;
+        right: -240px;
+    }
+    div.about_block {
+        // @include border(blue);
+        height: 210px;
+        @include flex(yes);
+        justify-content: flex-end;
+        position: relative;
+        @include respond(tab) {
+            height: auto;
+        }
+        div.about_header_main {
+            p {
+                @include mp;
+                line-height: 1.4em;
+                color: $textgrey;
+                font-weight: 200;
+            }
+            p.subtitle {
+                color: $orangeheader;
+            }
+            h2 {
+                @include mp;
+            }
+            p:not(p.subtitle) {
+                margin: 6px 0px 0px 0px;
+            }
+        }
+    }
+    div.main {
+        @include respond(tab) {
+            grid-column: 1 / 3;
+        }
+    }
+    div.content {
+        @include respond(tab) {
+            height: 210px;
+            margin: 20px 0px;
+        }
+    }
+    div.empty {
+        @include respond(tab) {
+            display: none;
+        }
+        @include respond(lphone) {
+            display: block;
+        }
+    }
+    div.main,
+    div.step_1 {
+        justify-content: flex-start;
+        @include respond(tab) {
+            justify-content: flex-end;
+        }
+    }
+    div.step_1 {
+        svg {
+            width: 41px;
+            height: 152px;
+            position: absolute;
+            right: 0px;
+            top: -70px;
+            z-index: -3;
+            @include respond(tab) {
+                display: none;
+            }
+        }
+        @include respond(tab) {
+            @include backgroundimage("../images/1.svg");
+        }
+    }
+    div.step_2 {
+        @include backgroundimage("../images/2.svg");
+    }
+    div.step_3 {
+        @include backgroundimage("../images/3.svg");
+    }
+    div.steps {
+        align-items: flex-end;
+        div.about_header_main {
+            width: 300px;
+        }
+        @include respond(tab) {
+            align-items: flex-start;
+        }
+        @include respond(phone) {
+            align-items: flex-end;
+        }
+    }
+}
+
+div.services {
+    margin: 30px 0px;
+    @include flex(no);
+    justify-content: flex-start;
+    position: relative;
+    div.service-text {
+        div.services_header_main {
+            width: 400px;
+            p.subtitle {
+                @include mp;
+                color: $orangeheader;
+            }
+            @include respond(lphone) {
+                width: auto;
+            }
+        }
+        div.services-container {
+            margin: 45px 0px 0px 0px;
+            width: 400px;
+            @include respond(lphone) {
+                width: auto;
+            }
+            div.service {
+                margin: 25px 0px;
+                div.service_container_text {
+                    padding: 0px 0px 0px 20px;
+                    @include respond(lphone) {
+                        padding: 8px 0px;
+                    }
+                    h3 {
+                        @include mp;
+                    }
+                    p {
+                        color: $textgrey;
+                        @include mp;
+                        padding: 5px 0px;
+                        line-height: 1.4em;
+                    }
+                }
+                div.service_container_image {
+                    svg {
+                        transform: scale(1.3);
+                    }
+                    @include mp;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+    div.service-image {
+        @include flex(no);
+        align-items: flex-start;
+        @include respond(tab) {
+            justify-content: flex-start;
+        }
+        @include respond(lphone) {
+            justify-content: center;
+        }
+        img.gradient {
+            position: absolute;
+            right: -220px;
+            top: -50px;
+            z-index: -2;
+        }
+        div.image_container {
+            background: #FFFFFF;
+            box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+            border-radius: 25px;
+            padding: 25px 35px;
+            @include respond(lphone) {
+                padding: 20px;
+            }
+            img {
+                min-width: 350px;
+                max-width: 400px;
+                @include respond(lphone) {
+                    min-width: 150px;
+                    width: 100%;
+                }
+            }
+        }
+        div.image_container_text {
+            margin: 25px 0px 0px 0px;
+            h3 {
+                @include mp;
+            }
+            p {
+                @include mp;
+                padding: 10px 0px;
+                color: $textgrey;
+            }
+        }
+        div.image_links {
+            margin: 10px 0px 15px 0px;
+            div.svg-container {
+                @include mp;
+                svg {
+                    transform: scale(1.2);
+                    cursor: pointer;
+                }
+            }
+        }
+        div.image_checkup {
+            @include mp;
+            div.image_checkup_image {
+                @include mp;
+            }
+            div.image_container_text {
+                @include mp;
+                p {
+                    @include mp;
+                }
+            }
+        }
+    }
+}
+
+div.testimonials {
+    margin: 50px 0px;
+    div.testimonial_header {
+        @include flex(yes);
+        margin: 0px 0px 50px 0px;
+        @include respond(tab) {
+            margin: 50px 0px 20px 0px;
+        }
+        @include respond(lphone) {
+            display: block;
+            @include mp;
+        }
+        p {
+            @include mp;
+            color: $orangeheader;
+        }
+        h2 {
+            @include mp;
+        }
+    }
+    section.testimonial-slider {
+        &>div {
+            &>ul {
+                &>li {
+                    &>div.testimonial-slide {
+                        @include flex(no);
+                        justify-content: flex-start;
+                        @include respond(lphone) {
+                            flex-direction: column-reverse;
+                        }
+                        div.image-container {
+                            @include mp;
+                            @include flex(no);
+                            img {
+                                max-width: 100%;
+                                margin-left: 40px;
+                                @include respond(lphone) {
+                                    width: 90%;
+                                    margin-left: 0px;
+                                }
+                            }
+                        }
+                        div.text-container {
+                            padding: 0px 40px 0px 120px;
+                            @include respond(tab) {
+                                padding: 40px 30px;
+                            }
+                            @include respond(lphone) {
+                                padding: 40px 20px;
+                            }
+                            svg.testimonial-icon {
+                                margin-bottom: 15px;
+                                transform: scale(1.1);
+                                @include respond(tab) {
+                                    transform: scale(1);
+                                }
+                                path {
+                                    fill: $orangeheader;
+                                }
+                            }
+                            div.stars {
+                                margin: 10px 0px;
+                                @include respond(tab) {
+                                    margin: 0px;
+                                }
+                            }
+                            &>p {
+                                @extend .font-weight;
+                                font-size: 25px;
+                                line-height: 1.5em;
+                                @include respond(tab) {
+                                    font-size: 20px;
+                                }
+                            }
+                            div.credit {
+                                margin-top: 20px;
+                                div.credit_left {
+                                    h4 {
+                                        @include mp;
+                                        @extend .font-weight;
+                                    }
+                                    p {
+                                        @include mp;
+                                        font-size: 18px;
+                                    }
+                                }
+                                div.credit_right {
+                                    @include flex(no);
+                                    @include respond(tab) {
+                                        justify-content: flex-start;
+                                    }
+                                    @include respond(lphone) {
+                                        display: block;
+                                        margin: 15px 0px;
+                                    }
+                                    img {
+                                        max-width: 150px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &>button {
+                position: absolute;
+                top: 50%;
+                background: none;
+                width: 80px;
+                height: 80px;
+                @include mp;
+                border-radius: 50%;
+                @include flex(no);
+                @include respond(tab) {
+                    width: 60px;
+                    height: 60px;
+                }
+                @include respond(lphone) {
+                    top: 80%;
+                }
+                svg {
+                    width: 100%;
+                    height: 100%;
+                    @include flex(no);
+                }
+            }
+            button.next {
+                left: 400px;
+                @include respond(tab) {
+                    left: 260px;
+                }
+                @include respond(lphone) {
+                    left: 80%;
+                }
+            }
+            button.prev {
+                left: 0px;
+                @include respond(lphone) {
+                    left: -10px;
+                }
+            }
+        }
+        ul.splide__pagination {
+            width: 500px;
+            @include respond(tab) {
+                width: 300px;
+            }
+            @include respond(lphone) {
+                width: 100%;
+            }
+            li {
+                transform: scale(1.2);
+                margin: 0px 10px 0px 0px;
+                button {
+                    @include transition;
+                    &:hover {
+                        background: $orangeheader;
+                    }
+                }
+            }
+            .is-active {
+                background: $orangeheader;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 100px;
+    div.footer-top {
+        div.footer_top_middle {
+            @include grid(3);
+            gap: 0px 20px;
+            @include respond(lphone) {
+                @include grid(2);
+                gap: 20px;
+            }
+            @include respond(phone) {
+                @include grid(1);
+                gap: 20px 0px;
+            }
+            div {
+                @include flex(no);
+                align-items: flex-start;
+                padding-top: 10px;
+                @include respond(phone) {
+                    justify-content: flex-start;
+                }
+                ul {
+                    width: 90%;
+                    h4 {
+                        @extend .font-weight;
+                    }
+                    li {
+                        list-style-type: none;
+                        padding: 5px 0px;
+                        a {
+                            @include link;
+                            font-size: 18px;
+                            &:hover {
+                                @include linkhover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        div.end {
+            padding-top: 20px;
+        }
+    }
+    ul.social-links {
+        li {
+            padding: 0px 8px;
+            display: inline-block;
+            a {
+                background: #FFFFFF;
+                box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                width: 41px;
+                height: 41px;
+                @include transition;
+                border-radius: 50%;
+                @include flex(no);
+                &:hover {
+                    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+                }
+            }
+        }
+    }
+    div.footer-bottom {
+        @include flex(yes);
+        margin-top: 35px;
+        &>div {
+            @include flex(no);
+            a {
+                @include link;
+                text-decoration: underline;
+                font-size: 18px;
+            }
+        }
+        span {
+            font-size: 18px;
+        }
+    }
+}

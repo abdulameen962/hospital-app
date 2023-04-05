@@ -1,0 +1,17 @@
+{% autoescape off %}
+
+Hi {{ user.username }}
+{% if type == "email" %}
+
+Please use the link below to verify your account
+
+http://{{domain}}{% url 'hospital:activate' uidb64=uid token=token %}
+
+{% elif type == "password"%}
+
+Please use the link below to verify your account
+
+http://{{domain}}{% url 'hospital:reset_password' uidb64=uid token=token %}
+{% endif %}
+
+{% endautoescape %}
