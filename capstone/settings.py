@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # environ.Env.read_env(os.path.join(BASE_DIR,'.env'))
 
 #for base images
-MEDIA_ROOT = os.path.join(BASE_DIR, "..", "www", "media")
+MEDIA_ROOT = os.path.join(BASE_DIR,"media")
 MEDIA_URL = 'media/'
 
 # Quick-start development settings - unsuitable for production
