@@ -15,9 +15,10 @@ from pathlib import Path
 import django_heroku
 import dj_database_url
 # import environ
-from dotenv import load_dotenv
+from decouple import config
+# from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 
 # env = environ.Env()
 
@@ -35,7 +36,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -149,12 +150,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #Email config
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_FROM_USER = os.environ.get('EMAIL_FROM_USER')
-EMAIL_HOST = os.environ.get('EMAIL_HOST')
-EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS')
-EMAIL_PORT = os.environ.get('EMAIL_PORT')
-EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
+EMAIL_FROM_USER = config('EMAIL_FROM_USER')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_USE_TLS = config('EMAIL_USE_TLS')
+EMAIL_PORT = config('EMAIL_PORT')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 #password timeout
 # PASSWORD_RESET_TIMEOUT_DAYS = 1
