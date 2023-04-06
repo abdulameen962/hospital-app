@@ -3,10 +3,10 @@
 {% block body %}
 <div class="profile-top row">
     <div class="image col-sm-12 col-md-4 col-lg-3">
-        {% if user.profilepic != " " %}
-        <img src="../..{{ user.profilepic.url }}" alt="{{ user.username }}" />
+        {% if user.profilepic %}
+            <img src="../..{{ user.profilepic.url }}" alt="{{ user.username }}" />
         {% else %}
-        <p>No profile picture uploaded</p>
+            <p>No profile picture uploaded</p>
         {% endif %}
     </div>
         {% if user.role == "Doctor" %}
