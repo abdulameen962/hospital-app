@@ -1,11 +1,12 @@
 #!/bin/bash
 
 echo "Building the project..."
-pip install -r requirements.txt --use-deprecated=legacy-resolver
+pip install -r requirements.txt
 
 echo "Make Migration..."
-python3.11 manage.py makemigrations --noinput
-python3.11 manage.py migrate --noinput
+python manage.py check
+python manage.py makemigrations
+python manage.py migrate 
 
 echo "Collect Static..."
-python3.11 manage.py collectstatic --noinput --clear
+python manage.py collectstatic --noinput --clear
