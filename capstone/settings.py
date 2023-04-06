@@ -21,6 +21,7 @@ load_dotenv()
 
 # env = environ.Env()
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -96,12 +97,8 @@ SITE_ID = 1
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+DATABASES = {}
+DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
 AUTH_USER_MODEL = 'hospital.User'
 # Password validation
@@ -158,3 +155,5 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 #password timeout
 # PASSWORD_RESET_TIMEOUT_DAYS = 1
 django_heroku.settings((locals()))
+options = DATABASES['default'].get('OPTIONS', {})
+options.pop('sslmode', None)
