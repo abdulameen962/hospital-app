@@ -15,3 +15,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'capstone.settings')
 
 from whitenoise import WhiteNoise
 application = WhiteNoise(get_wsgi_application())
+
+# >uwsgi --http localhost:8000 --wsgi-file capstone/wsgi.py

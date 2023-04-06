@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 import os
 from pathlib import Path
+import django_heroku
+import dj_database_url
 # import environ
 from dotenv import load_dotenv
 
@@ -32,6 +34,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -158,3 +161,4 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 #password timeout
 # PASSWORD_RESET_TIMEOUT_DAYS = 1
+django_heroku.settings((locals))
