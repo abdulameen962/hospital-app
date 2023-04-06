@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 #for base images
 MEDIA_ROOT = os.path.join(BASE_DIR, "..", "www", "media")
-MEDIA_URL = '/media/'
+MEDIA_URL = 'media/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
