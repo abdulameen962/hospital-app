@@ -1,0 +1,4612 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2023-03-02T14:55:59.668Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Kunle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2023-03-02T14:56:21.778Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\", \"Profilepic\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2023-03-02T18:08:14.315Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Kunle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2023-03-02T18:08:23.538Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2023-03-03T15:55:58.902Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "1",
+        "object_repr": "Family physicians(Family physicians)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2023-03-03T15:56:16.969Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "2",
+        "object_repr": "Surgeon(Surgeon)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2023-03-03T15:56:43.383Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "3",
+        "object_repr": "Pediatrician(Pediatrician)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2023-03-03T15:57:03.398Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "4",
+        "object_repr": "Dentist(Dentist)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2023-03-03T15:57:52.209Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "5",
+        "object_repr": "Psychiatrist(Psychiatrist)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2023-03-03T15:58:07.702Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "6",
+        "object_repr": "Neurologists(Neurologists)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2023-03-03T15:58:22.518Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "7",
+        "object_repr": "Radiologists(Radiologists)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2023-03-03T15:58:42.327Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "8",
+        "object_repr": "Emergency physicians(Emergency physicians)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2023-03-03T15:58:57.332Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "9",
+        "object_repr": "Obstetricians and gynecologists(Obstetricians and gynecologists)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2023-03-03T15:59:36.306Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "object_id": "10",
+        "object_repr": "Physician(Physician)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2023-03-03T17:10:36.964Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Kunle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2023-03-03T17:50:42.974Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "Blahhh",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Profilepic\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2023-03-03T17:51:29.823Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "2",
+        "object_repr": "Blahhh has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2023-03-03T17:51:30.007Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "1",
+        "object_repr": "Testing has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2023-03-03T17:51:41.816Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "4",
+        "object_repr": "Blahhh",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2023-03-03T17:51:41.944Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "3",
+        "object_repr": "Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2023-03-03T20:23:20.219Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "3",
+        "object_repr": "Boli I am cool and collected and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>]> has <QuerySet []> appointments and is available hospit",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2023-03-03T20:23:20.436Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "2",
+        "object_repr": "Bola cool,calm and is skilled in <QuerySet []> has <QuerySet []> appointments and is available hospital.DocAppointment.None",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2023-03-03T20:23:20.615Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "1",
+        "object_repr": "Bolanle Hello,i am bolanle,i am cool,calm and collected and is skilled in <QuerySet []> has <QuerySet []> appointments and is available hospital.DocAppointment.None",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2023-03-03T20:23:33.272Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Tolani has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2023-03-03T20:23:33.551Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "3",
+        "object_repr": "Testing has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2023-03-03T20:24:13.559Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "9",
+        "object_repr": "Boli",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2023-03-03T20:24:13.712Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "8",
+        "object_repr": "Bola",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2023-03-03T20:24:13.920Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "7",
+        "object_repr": "Tolani",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2023-03-03T20:24:14.112Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "6",
+        "object_repr": "Bolanle",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2023-03-03T20:24:14.409Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "5",
+        "object_repr": "Testing",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2023-03-03T20:24:14.558Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "2",
+        "object_repr": "Kunle",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2023-03-03T20:49:25.862Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul has made <QuerySet []> appointments",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2023-03-04T13:30:44.583Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "Tolani",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2023-03-06T16:57:31.021Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "docappointment"
+        ],
+        "object_id": "1",
+        "object_repr": "Bolanle is available 2023-03-06 17:00:00+00:00 to 2023-03-08 06:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2023-03-07T14:37:41.028Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul has made <QuerySet []> appointments",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\", \"Cancelled\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2023-03-07T14:37:56.062Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "4",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 22:00:00+00:00 to 2023-03-07 22:30:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2023-03-07T14:37:56.240Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "3",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 00:00:00+00:00 to 2023-03-07 01:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2023-03-07T14:37:56.362Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "2",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 13:05:00+00:00 to 2023-03-07 14:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2023-03-07T14:37:56.460Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 13:05:00+00:00 to 2023-03-07 14:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2023-03-07T14:38:41.399Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2023-03-07T14:42:48.516Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "6",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-08 03:00:00+00:00 to 2023-03-08 05:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2023-03-07T14:42:48.696Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 13:05:00+00:00 to 2023-03-07 14:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2023-03-07T14:44:41.400Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul has made <QuerySet []> appointments",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2023-03-07T14:44:58.997Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "7",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 00:00:00+00:00 to 2023-03-07 01:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2023-03-07T14:46:11.456Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2023-03-07T14:47:48.868Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "8",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 00:00:00+00:00 to 2023-03-07 01:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2023-03-07T14:48:03.261Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2023-03-07T14:48:31.356Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul has made <QuerySet []> appointments",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2023-03-07T14:53:50.823Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\", \"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2023-03-07T14:54:00.822Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "10",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 15:00:00+00:00 to 2023-03-07 16:00:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2023-03-07T14:54:00.958Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "9",
+        "object_repr": "Abdul wants to see the doctor Bolanle is available 2023-03-07 22:00:00+00:00 to 2023-03-07 22:30:00+00:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2023-03-07T14:54:47.539Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Abdul has made <QuerySet []> appointments",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2023-03-07T20:41:50.535Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "1",
+        "object_repr": "1: Lorem ipsum dolor sit has Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius corrupti quos repellendus pariatur ratione quia in, minima et, aspernatur and the prescriptions is illo fu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2023-03-07T20:42:55.654Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "2",
+        "object_repr": "2: Amet consectetur adipisicing elit. has Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem qui magnam quidem dicta iure explicabo, inventore maiores doloribus deserunt itaque ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2023-03-07T20:44:11.781Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "3",
+        "object_repr": "3: Reprehenderit suscipit voluptate has Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit voluptate alias eius autem libero and the prescriptions is doloremque sapiente, ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2023-03-07T20:45:12.200Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "4",
+        "object_repr": "4: Quasi optio sequi quia magnam! has Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi optio sequi quia magnam! Cupiditate praesentium ipsa laboriosam! and the prescriptions is Quasi na",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2023-03-07T20:46:15.951Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "5",
+        "object_repr": "5: Rem, incidunt has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, incidunt. Architecto fugit totam laudantium eaque necessitatibus and the prescriptions is delectus possimus expedita",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2023-03-07T20:48:10.585Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "6",
+        "object_repr": "6: Odio quo laborum deleniti has Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quo laborum deleniti distinctio ut facere ea corrupti quibusdam, and the prescriptions is tenetur corpori",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2023-03-07T20:49:02.659Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "7",
+        "object_repr": "7: Optio totam nulla has Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam nulla, culpa magnam quas ab iusto molestias et! and the prescriptions is Consectetur officiis animi repell",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2023-03-07T20:50:07.162Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "8",
+        "object_repr": "8: Id, perspiciatis delectus voluptate has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, perspiciatis delectus voluptate placeat corporis aliquam! and the prescriptions is Voluptatem, ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2023-03-07T20:51:09.734Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "9",
+        "object_repr": "9: Assumenda, ratione deleniti. has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ratione deleniti. Enim optio rerum and the prescriptions is officia doloribus vitae magnam nost",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2023-03-07T20:55:00.618Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "10",
+        "object_repr": "10: Ex impedit nostrum nesciunt has Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit nostrum nesciunt nulla. Quo recusandae cum quasi, dolorem sed qui beatae and the prescriptions ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2023-03-07T20:55:44.065Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "11",
+        "object_repr": "11: Vel expedita dolor eius accusamus has Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita dolor eius accusamus facere ex rerum sit and the prescriptions is neque iste doloribus d",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2023-03-07T20:56:36.262Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "12",
+        "object_repr": "12: Tempore iure obcaecati incidunt provident has Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure obcaecati incidunt provident itaque, quidem tempora, quibusdam assumenda enim ve",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2023-03-07T20:59:38.374Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "13",
+        "object_repr": "13: Ratione quo natus officiis expedita has Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam nam ratione quo natus officiis expedita deserunt quisquam eaque praesentium minus,",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2023-03-07T21:02:49.430Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "14",
+        "object_repr": "14: Est debitis repellat et dignissimos has Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est debitis repellat et dignissimos and the prescriptions is alias eos voluptatibus magnam, culpa,",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2023-03-07T21:58:51.396Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "1",
+        "object_repr": "1: Lorem ipsum dolor sit has Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eius corrupti quos repellendus pariatur ratione quia in, minima et, aspernatur and the prescriptions is illo fu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2023-03-07T21:59:01.601Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "14",
+        "object_repr": "14: Est debitis repellat et dignissimos has Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est debitis repellat et dignissimos and the prescriptions is alias eos voluptatibus magnam, culpa,",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2023-03-07T21:59:13.286Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "13",
+        "object_repr": "13: Ratione quo natus officiis expedita has Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quam nam ratione quo natus officiis expedita deserunt quisquam eaque praesentium minus,",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2023-03-07T21:59:23.129Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "12",
+        "object_repr": "12: Tempore iure obcaecati incidunt provident has Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iure obcaecati incidunt provident itaque, quidem tempora, quibusdam assumenda enim ve",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2023-03-07T21:59:34.048Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "11",
+        "object_repr": "11: Vel expedita dolor eius accusamus has Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita dolor eius accusamus facere ex rerum sit and the prescriptions is neque iste doloribus d",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2023-03-07T21:59:51.801Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "10",
+        "object_repr": "10: Ex impedit nostrum nesciunt has Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex impedit nostrum nesciunt nulla. Quo recusandae cum quasi, dolorem sed qui beatae and the prescriptions ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2023-03-07T22:00:06.277Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "9",
+        "object_repr": "9: Assumenda, ratione deleniti. has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, ratione deleniti. Enim optio rerum and the prescriptions is officia doloribus vitae magnam nost",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2023-03-07T22:00:16.311Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "8",
+        "object_repr": "8: Id, perspiciatis delectus voluptate has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id, perspiciatis delectus voluptate placeat corporis aliquam! and the prescriptions is Voluptatem, ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2023-03-07T22:00:25.727Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "7",
+        "object_repr": "7: Optio totam nulla has Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio totam nulla, culpa magnam quas ab iusto molestias et! and the prescriptions is Consectetur officiis animi repell",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2023-03-07T22:00:44.053Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "6",
+        "object_repr": "6: Odio quo laborum deleniti has Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quo laborum deleniti distinctio ut facere ea corrupti quibusdam, and the prescriptions is tenetur corpori",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2023-03-07T22:00:56.669Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "5",
+        "object_repr": "5: Rem, incidunt has Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, incidunt. Architecto fugit totam laudantium eaque necessitatibus and the prescriptions is delectus possimus expedita",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2023-03-07T22:01:07.521Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "4",
+        "object_repr": "4: Quasi optio sequi quia magnam! has Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi optio sequi quia magnam! Cupiditate praesentium ipsa laboriosam! and the prescriptions is Quasi na",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2023-03-07T22:01:17.238Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "3",
+        "object_repr": "3: Reprehenderit suscipit voluptate has Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit voluptate alias eius autem libero and the prescriptions is doloremque sapiente, ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2023-03-07T22:01:29.565Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "object_id": "2",
+        "object_repr": "2: Amet consectetur adipisicing elit. has Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolorem qui magnam quidem dicta iure explicabo, inventore maiores doloribus deserunt itaque ",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Instock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2023-03-08T21:36:04.178Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "Abdul ordered for Lorem ipsum dolor sit and the orderpositon is False",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Itemprice\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2023-03-08T21:36:14.319Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "object_id": "2",
+        "object_repr": "Abdul ordered for Lorem ipsum dolor sit and the orderpositon is False",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Itemprice\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2023-03-09T19:07:38.823Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "11",
+        "object_repr": "Abdul wants to see the doctor 4: Bolanle is available 03 07, 2023, 01:05 PM to 03 07, 2023, 02:00 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2023-03-09T19:38:46.895Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "13",
+        "object_repr": "Abdul wants to see the doctor 5: Bolanle is available 03 07, 2023, 12:00 AM to 03 07, 2023, 01:00 AM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2023-03-09T19:41:48.870Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "12",
+        "object_repr": "Abdul wants to see the doctor 10: Bolanle is available 03 08, 2023, 06:00 PM to 03 08, 2023, 07:00 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2023-03-09T19:42:52.020Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Appointments\", \"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2023-03-09T19:50:53.167Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "17",
+        "object_repr": "Abdul wants to see the doctor 4: Bolanle is available 03 07, 2023, 01:05 PM to 03 07, 2023, 02:00 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2023-03-09T19:50:53.345Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "16",
+        "object_repr": "Abdul wants to see the doctor 9: Bolanle is available 03 08, 2023, 03:00 AM to 03 08, 2023, 05:00 AM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2023-03-09T19:50:53.472Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "15",
+        "object_repr": "Abdul wants to see the doctor 7: Bolanle is available 03 07, 2023, 10:00 PM to 03 07, 2023, 10:30 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2023-03-09T19:50:53.586Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "14",
+        "object_repr": "Abdul wants to see the doctor 5: Bolanle is available 03 07, 2023, 12:00 AM to 03 07, 2023, 01:00 AM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2023-03-09T19:51:19.360Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle I am cool,calm and collected.I have a phd and masters degree,very experienced and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Pediatrician(PDT)>, <Skills: Dentist(DNT)>",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2023-03-09T19:56:23.157Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "2",
+        "object_repr": "Abdul has a message with a subject of Confirm completion of appointment Abdul and a body of Hi  .\n Hope your day was wonderful. We are checking if you have completed your appointment which lasted from",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2023-03-09T19:56:23.269Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul has a message with a subject of Confirm completion of appointment Abdul and a body of Hi  .\n Hope your day was wonderful. We are checking if you have completed your appointment which lasted from",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2023-03-10T12:10:43.110Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "object_id": "1",
+        "object_repr": "1: The appointment made by Bolanle that was from 03 10, 2023, 01:10 PM to 03 10, 2023, 01:10 PM has been deleted by Abdul at 03 10, 2023, 12:10 PM",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2023-03-10T12:10:55.734Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "object_id": "1",
+        "object_repr": "1: The appointment made by Bolanle that was from 03 10, 2023, 12:10 PM to 03 10, 2023, 12:10 PM has been deleted by Abdul at 03 10, 2023, 12:10 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2023-03-10T16:20:49.837Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "11",
+        "object_repr": "Tolani",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is email verified\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2023-03-10T16:21:02.258Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "10",
+        "object_repr": "Bolanle",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is email verified\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2023-03-10T16:21:13.144Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is email verified\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2023-03-10T23:03:04.676Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "6",
+        "object_repr": "Boyeji has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2023-03-10T23:03:10.730Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "12",
+        "object_repr": "Boyeji",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2023-03-10T23:11:28.060Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "7",
+        "object_repr": "Boyeji has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2023-03-10T23:11:34.406Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "13",
+        "object_repr": "Boyeji",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2023-03-11T11:33:05.452Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "8",
+        "object_repr": "Boyeji has made <QuerySet []> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2023-03-11T11:33:35.817Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "24",
+        "object_repr": "Boyeji has a message with a subject of Welcome Boyeji and a body of Welcome to the hospital platform Ifeoluwa Abdulameen,\n We are here to take care of your health needs,kindly take a tour of our platf",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2023-03-11T11:34:03.341Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "14",
+        "object_repr": "Boyeji",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2023-03-11T15:29:57.253Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Abdul",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2023-03-12T13:16:18.286Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "58",
+        "object_repr": "Ifeoluwa has a message with a subject of Confirm completion of appointment Ifeoluwa and a body of Hi Abdul-ameen Sanni.\n Hope your day was wonderful. We are checking if you have completed your appoint",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2023-03-12T13:16:18.396Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "54",
+        "object_repr": "Ifeoluwa has a message with a subject of You just checked out an order and a body of Hello Ifeoluwa. \n You just checked out a drug with the name of Amet consectetur adipisicing elit. ordering 10 and t",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2023-03-12T13:16:18.499Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "53",
+        "object_repr": "Ifeoluwa has a message with a subject of You just added an order to cart and a body of Hello Ifeoluwa. \n You just added to cart a drug with the name of Amet consectetur adipisicing elit..You can check",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2023-03-12T13:16:18.571Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "52",
+        "object_repr": "Ifeoluwa has a message with a subject of You just made a new appointment with Dr Tolani and a body of Hello Ifeoluwa You just made a new appointment with Dr Tolani Bayonle from 03 11, 2023, 08:01 PM t",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2023-03-12T13:16:18.669Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "25",
+        "object_repr": "Ifeoluwa has a message with a subject of Welcome Ifeoluwa and a body of Welcome to the hospital platform Abdul-ameen Sanni,\n We are here to take care of your health needs,kindly take a tour of our pla",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2023-03-12T13:16:32.279Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "object_id": "9",
+        "object_repr": "Ifeoluwa has made <QuerySet [<DocAppointment: 20: Tolani is available 03 11, 2023, 08:01 PM to 03 11, 2023, 09:00 PM>]> appointments",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2023-03-12T13:17:07.993Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "object_id": "22",
+        "object_repr": "Ifeoluwa wants to see the doctor 20: Tolani is available 03 11, 2023, 08:01 PM to 03 11, 2023, 09:00 PM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2023-03-12T13:18:30.230Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Tolani I am cool,calm and a very good doctor and is skilled in <QuerySet [<Skills: Family physicians(FPH)>, <Skills: Surgeon(SRG)>, <Skills: Pediatrician(PDT)>]> has <QuerySet [<PatientAppointment: Da",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Availables\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2023-03-12T13:20:22.418Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "15",
+        "object_repr": "Ifeoluwa",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2023-03-12T17:06:00.579Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "Dara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is email verified\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2023-03-16T03:11:35.685Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "object_id": "3",
+        "object_repr": "3: The appointment made by Dara that was from 03 16, 2023, 03:10 AM to 03 16, 2023, 03:10 AM has been deleted by Dara at 03 16, 2023, 03:10 AM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2023-03-16T03:11:35.782Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "object_id": "2",
+        "object_repr": "2: The appointment made by Dara that was from 03 16, 2023, 03:10 AM to 03 16, 2023, 03:10 AM has been deleted by Dara at 03 16, 2023, 03:10 AM",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2023-03-16T03:14:33.578Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "101",
+        "object_repr": "Dara has a message with a subject of Deletion of an appointment and a body of Hi Onoolapo Abayomi.\n This message is to inform you that the appointment from 03/13/2023 01:00 AM to 03/13/2023 02:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2023-03-16T03:14:33.898Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "100",
+        "object_repr": "Bolanle has a message with a subject of Deletion of an appointment and a body of Hi Dr Bolanle Balogun.\n This message is to inform you that the appointment from 03/13/2023 01:00 AM to 03/13/2023 02:00",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2023-03-16T03:14:33.986Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "99",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment whic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.129Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "98",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment whic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.218Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "97",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking on you again if you have completed your app",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.330Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "96",
+        "object_repr": "Dara has a message with a subject of Completed appointment🎉🎉 and a body of Hello Onoolapo Abayomi. \n Thanks for completing your appointment with Dr Bolanle Balogun from 03/13/2023 02:01 AM to 03/13/20",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.426Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "95",
+        "object_repr": "Bolanle has a message with a subject of Completed appointment🎉🎉 and a body of Hello Dr Bolanle Balogun. \n Thanks for completing your appointment with Onoolapo Abayomi from 03/13/2023 02:01 AM to 03/13",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.498Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "94",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Dara. \n You just checked out a drug with the name of Amet consectetur adipisicing elit. ordering 10 and totalled ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.578Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "93",
+        "object_repr": "Dara has a message with a subject of You just added an order to cart and a body of Hello Dara. \n You just added to cart a drug with the name of Amet consectetur adipisicing elit..You can check the car",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.650Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "92",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 09:02 PM to 03/13/2023 10:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.714Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "91",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 07:00 PM to 03/13/2023 09:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.794Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "90",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking on you again if you have completed your app",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2023-03-16T03:14:34.890Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "89",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking on you again if you have completed your app",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.042Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "88",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 22:02:00 to 2023-03-13 23:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.242Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "87",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 20:00:00 to 2023-03-13 22:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.434Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "86",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 05:00 AM to 03/13/2023 06:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.626Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "85",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 03:01 AM to 03/13/2023 04:01 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.746Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "84",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment whic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.890Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "83",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 06:00:00 to 2023-03-13 07:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2023-03-16T03:14:35.978Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "82",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment whic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2023-03-16T03:14:36.066Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "81",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Bolanle and a body of Hello Dara You just made a new appointment with Dr Bolanle Balogun from 03 13, 2023, 02:01 AM to 03 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2023-03-16T03:14:36.147Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "80",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Bolanle and a body of Hello Dara You just made a new appointment with Dr Bolanle Balogun from 03 13, 2023, 01:00 AM to 03 1",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2023-03-16T03:14:36.267Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "79",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 03:01:00 to 2023-03-13 04:01:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2023-03-16T03:14:36.813Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "78",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 02:01:00 to 2023-03-13 03:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2023-03-16T03:14:36.997Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "77",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00 to 2023-03-13 02:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.101Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "76",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 12:00 AM to 03/13/2023 01:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.197Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "75",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00 to 2023-03-13 02:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.317Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "74",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 12:00 AM to 03/13/2023 01:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.421Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "73",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00 to 2023-03-13 02:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.525Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "72",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 12:00 AM to 03/13/2023 01:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.629Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "71",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00+01:00 to 2023-03-13 02:00:00+",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.765Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "70",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/13/2023 12:00 AM to 03/13/2023 01:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2023-03-16T03:14:37.949Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "69",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00+01:00 to 2023-03-13 02:00:00+",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.069Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "68",
+        "object_repr": "Bolanle has a message with a subject of You just removed an appointment Dr Bolanle and a body of You just removed an appointment Dr Bolanle from 03 13, 2023, 12:00 AM to 03 13, 2023, 01:00 AM,\n We hop",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.181Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "67",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-13 01:00:00 to 2023-03-13 02:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.284Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "66",
+        "object_repr": "Dara has a message with a subject of Completed appointment🎉🎉 and a body of Hello Onoolapo Abayomi. \n Thanks for completing your appointment with Dr Tolani Bayonle from 03/11/2023 06:00 PM to 03/11/202",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.412Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "65",
+        "object_repr": "Tolani has a message with a subject of Completed appointment🎉🎉 and a body of Hello Dr Tolani Bayonle. \n Thanks for completing your appointment with Onoolapo Abayomi from 03/11/2023 06:00 PM to 03/11/2",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.516Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "64",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking on you again if you have completed your app",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.676Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "63",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Dara. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 15 and totalled to 600 .\n We ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.780Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "62",
+        "object_repr": "Kunle has a message with a subject of Welcome Kunle and a body of Welcome to the hospital platform Sanni Abdulameen,\n We are here to take care of your health needs,kindly take a tour of our platform a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2023-03-16T03:14:38.900Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "61",
+        "object_repr": "Tolani has a message with a subject of Expired appointment and a body of Hi, Tolani Bayonle.\n This is to inform you that the appointment you created from 03/11/2023 08:01 PM to 03/11/2023 09:00 PM has",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.116Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "60",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolapo Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment whic",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.252Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "59",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Dara and a body of Hi Onoolap Abayomi.\n Hope your day was wonderful. We are checking if you have completed your appointment which",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.364Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "57",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Abdul and a body of Hi Sanni Abdulameen.\n Hope your day was wonderful. We are checking if you have completed your appointment whi",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.444Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "56",
+        "object_repr": "Tolani has a message with a subject of Expired appointment and a body of Hi, Tolani Bayonle.\n This is to inform you that the appointment you created from 03/11/2023 05:00 PM to 03/11/2023 06:00 PM has",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.524Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "55",
+        "object_repr": "Dara has a message with a subject of You just removed an appointment with Dr Tolani and a body of Hello Abdul You just removed an appointment with Dr Tolani Bayonle from 03 11, 2023, 05:00 PM to 03 11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.636Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "51",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Tolani and a body of Hello Abdul You just made a new appointment with Dr Tolani Bayonle from 03 11, 2023, 06:00 PM to 03 11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.749Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "50",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Tolani and a body of Hello Abdul You just made a new appointment with Dr Tolani Bayonle from 03 11, 2023, 05:00 PM to 03 11",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2023-03-16T03:14:39.917Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "49",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 20:01:00 to 2023-03-11 21:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.053Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "48",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 19:00:00 to 2023-03-11 21:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.245Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "47",
+        "object_repr": "Tolani has a message with a subject of Expired appointment and a body of Hi, Tolani Bayonle.\n This is to inform you that the appointment you created from 03/11/2023 03:00 PM to 03/11/2023 04:00 PM has",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.437Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "46",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 16:00:00 to 2023-03-11 17:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.541Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "45",
+        "object_repr": "Tolani has a message with a subject of You just removed an appointment Dr Tolani and a body of You just removed an appointment Dr Tolani from 03 11, 2023, 03:00 PM to 03 11, 2023, 04:00 PM,\n We hope y",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.693Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "44",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 16:00:00 to 2023-03-11 17:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.765Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "43",
+        "object_repr": "Tolani has a message with a subject of Expired appointment and a body of Hi, Tolani Bayonle.\n This is to inform you that the appointment you created from 03/11/2023 03:00 PM to 03/11/2023 05:00 PM has",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.845Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "42",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 18:00:00 to 2023-03-11 19:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2023-03-16T03:14:40.965Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "41",
+        "object_repr": "Tolani has a message with a subject of You just created a new appointment Dr Tolani and a body of You just created a new appointment Dr Tolani from 2023-03-11 16:00:00 to 2023-03-11 18:00:00,\n Cheers ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.117Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "40",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.189Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "39",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 20 and totalled to 800 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.285Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "38",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.526Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "37",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 15 and totalled to 600 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.622Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "36",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.734Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "35",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.894Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "34",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2023-03-16T03:14:41.998Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "33",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.086Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "32",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.206Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "31",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 5 and totalled to 200 .\n We ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.366Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "30",
+        "object_repr": "Dara has a message with a subject of You just checked out an order and a body of Hello Abdul. \n You just checked out a drug with the name of Lorem ipsum dolor sit ordering 10 and totalled to 400 .\n We",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.438Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "29",
+        "object_repr": "Dara has a message with a subject of You just added an order to cart and a body of Hello Abdul. \n You just added to cart a drug with the name of Lorem ipsum dolor sit.You can check the cart page for y",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.511Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "28",
+        "object_repr": "Dara has a message with a subject of You just removed an order from your cart and a body of Hello Abdul. \n You just removed from cart a drug with the name of Lorem ipsum dolor sit.\n Enjoy the rest of ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.666Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "27",
+        "object_repr": "Dara has a message with a subject of You just added an order to cart and a body of Hello Abdul. \n You just added to cart a drug with the name of Lorem ipsum dolor sit.You can check the cart page for y",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.747Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "26",
+        "object_repr": "Dara has a message with a subject of You just removed an order from your cart and a body of Hello Abdul. \n You just removed from cart a drug with the name of Lorem ipsum dolor sit.\n Enjoy the rest of ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.827Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "23",
+        "object_repr": "Dara has a message with a subject of You just removed an order from your cart and a body of Hello Abdul. \n You just removed from cart a drug with the name of Amet consectetur adipisicing elit..\n Enjoy",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2023-03-16T03:14:42.915Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "22",
+        "object_repr": "Dara has a message with a subject of Completed appointment🎉🎉 and a body of Hello  . \n Thanks for completing your appointment with Dr Bolanle Balogun from 03/10/2023 09:00 AM to 03/10/2023 11:00 AM \n W",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.099Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "21",
+        "object_repr": "Bolanle has a message with a subject of Completed appointment🎉🎉 and a body of Hello Dr Bolanle Balogun. \n Thanks for completing your appointment with   from 03/10/2023 09:00 AM to 03/10/2023 11:00 AM ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.259Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "20",
+        "object_repr": "Dara has a message with a subject of Confirm completion of appointment Abdul and a body of Hi  .\n Hope your day was wonderful. We are checking if you have completed your appointment which lasted from ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.516Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "19",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/10/2023 05:00 AM to 03/10/2023 07:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.644Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "18",
+        "object_repr": "Dara has a message with a subject of You just removed an appointment with Dr Bolanle and a body of Hello Abdul You just removed an appointment with Dr Bolanle Balogun from 03 10, 2023, 05:00 AM to 03 ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.764Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "17",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Bolanle and a body of Hello Abdul You just made a new appointment with Dr Bolanle Balogun from 03 10, 2023, 09:00 AM to 03 ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2023-03-16T03:14:43.916Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "16",
+        "object_repr": "Dara has a message with a subject of You just made a new appointment with Dr Bolanle and a body of Hello Abdul You just made a new appointment with Dr Bolanle Balogun from 03 10, 2023, 05:00 AM to 03 ",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.012Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "15",
+        "object_repr": "Bolanle has a message with a subject of You just removed an appointment Dr Bolanle and a body of You just removed an appointment Dr Bolanle from 03 10, 2023, 02:00 AM to 03 10, 2023, 04:00 AM,\n We hop",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 200,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.084Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "14",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-10 10:00:00 to 2023-03-10 12:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 201,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.260Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "13",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-10 06:00:00 to 2023-03-10 08:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 202,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.340Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "12",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-10 03:00:00 to 2023-03-10 05:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 203,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.436Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "11",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/09/2023 10:59 PM to 03/10/2023 12:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 204,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.548Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "10",
+        "object_repr": "Bolanle has a message with a subject of You just created a new appointment Dr Bolanle and a body of You just created a new appointment Dr Bolanle from 2023-03-09 23:59:00 to 2023-03-10 01:00:00,\n Chee",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 205,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.652Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "9",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/08/2023 06:00 PM to 03/08/2023 07:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 206,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.716Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "8",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/08/2023 03:00 AM to 03/08/2023 05:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 207,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.788Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "7",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/07/2023 10:00 PM to 03/07/2023 10:30 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 208,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.868Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "6",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/07/2023 12:00 AM to 03/07/2023 01:00 AM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 209,
+    "fields": {
+        "action_time": "2023-03-16T03:14:44.964Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "5",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/07/2023 01:05 PM to 03/07/2023 02:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 210,
+    "fields": {
+        "action_time": "2023-03-16T03:14:45.036Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/07/2023 05:00 PM to 03/07/2023 07:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 211,
+    "fields": {
+        "action_time": "2023-03-16T03:14:45.166Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "object_id": "3",
+        "object_repr": "Bolanle has a message with a subject of Expired appointment and a body of Hi, Bolanle Balogun.\n This is to inform you that the appointment you created from 03/07/2023 03:00 PM to 03/07/2023 04:00 PM h",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 212,
+    "fields": {
+        "action_time": "2023-03-17T01:32:23.927Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "5",
+        "object_repr": "Tolani Quidem voluptate magnam magni repellat enim sint ipsam est, numquam ratione laborum quia neque, sed beatae accusantium quasi error porro aspernatur ut cum, laudantium velit doloremque molestiae",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descr\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 213,
+    "fields": {
+        "action_time": "2023-03-17T01:33:02.609Z",
+        "user": [
+            "Dara"
+        ],
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "object_id": "4",
+        "object_repr": "Bolanle Aliquid dolorem magnam fuga omnis, adipisci ullam quisquam non tempore cumque libero dolores blanditiis, veniam sapiente commodi labore, blanditiis deleniti velit consectetur doloremque eius e",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Descr\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "hospital",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add availability",
+        "content_type": [
+            "hospital",
+            "availability"
+        ],
+        "codename": "add_availability"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change availability",
+        "content_type": [
+            "hospital",
+            "availability"
+        ],
+        "codename": "change_availability"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete availability",
+        "content_type": [
+            "hospital",
+            "availability"
+        ],
+        "codename": "delete_availability"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view availability",
+        "content_type": [
+            "hospital",
+            "availability"
+        ],
+        "codename": "view_availability"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add doc appointment",
+        "content_type": [
+            "hospital",
+            "docappointment"
+        ],
+        "codename": "add_docappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change doc appointment",
+        "content_type": [
+            "hospital",
+            "docappointment"
+        ],
+        "codename": "change_docappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete doc appointment",
+        "content_type": [
+            "hospital",
+            "docappointment"
+        ],
+        "codename": "delete_docappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view doc appointment",
+        "content_type": [
+            "hospital",
+            "docappointment"
+        ],
+        "codename": "view_docappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add patient appointment",
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "codename": "add_patientappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change patient appointment",
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "codename": "change_patientappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete patient appointment",
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "codename": "delete_patientappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view patient appointment",
+        "content_type": [
+            "hospital",
+            "patientappointment"
+        ],
+        "codename": "view_patientappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add skills",
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "codename": "add_skills"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change skills",
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "codename": "change_skills"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete skills",
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "codename": "delete_skills"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view skills",
+        "content_type": [
+            "hospital",
+            "skills"
+        ],
+        "codename": "view_skills"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add patient info",
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "codename": "add_patientinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change patient info",
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "codename": "change_patientinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete patient info",
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "codename": "delete_patientinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view patient info",
+        "content_type": [
+            "hospital",
+            "patientinfo"
+        ],
+        "codename": "view_patientinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add doctor info",
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "codename": "add_doctorinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change doctor info",
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "codename": "change_doctorinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete doctor info",
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "codename": "delete_doctorinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view doctor info",
+        "content_type": [
+            "hospital",
+            "doctorinfo"
+        ],
+        "codename": "view_doctorinfo"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add messages",
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "codename": "add_messages"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change messages",
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "codename": "change_messages"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete messages",
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "codename": "delete_messages"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view messages",
+        "content_type": [
+            "hospital",
+            "messages"
+        ],
+        "codename": "view_messages"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add order",
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change order",
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete order",
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view order",
+        "content_type": [
+            "hospital",
+            "order"
+        ],
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add pharmacy",
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "codename": "add_pharmacy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change pharmacy",
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "codename": "change_pharmacy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete pharmacy",
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "codename": "delete_pharmacy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view pharmacy",
+        "content_type": [
+            "hospital",
+            "pharmacy"
+        ],
+        "codename": "view_pharmacy"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can add deleted appointment",
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "codename": "add_deletedappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can change deleted appointment",
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "codename": "change_deletedappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can delete deleted appointment",
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "codename": "delete_deletedappointment"
+    }
+},
+{
+    "model": "auth.permission",
+    "fields": {
+        "name": "Can view deleted appointment",
+        "content_type": [
+            "hospital",
+            "deletedappointment"
+        ],
+        "codename": "view_deletedappointment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0u863chk7za0aldzvftbaw2yoj5slgun",
+    "fields": {
+        "session_data": "e30:1pawNr:b3qXKPPQJxR2YX-xdhmlKyY5l7CeyJguAXcJL5dO3Yw",
+        "expire_date": "2023-03-25T10:23:27.767Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8jlr1bcz2z2blybuvcnhhhum53uf9bc9",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSHAMDxcuvcbCI9BqoYmpV0Z_12bdKHbe865LxbitrawDVrCVNiZSXb63VLMD-o7KPfYbzPPc1-XKfFd4Qcd_DoXel4O9--gxdG-tdIoAY3SlQwY40RCWSGnRBm182ilFlF5EpZyUcVCNdpBJvQIrkbP3h-5jzcl:1pbOir:UBqdAkR_MiZvxHdjdFIKd_jc3XSbR-SyAuxSARh2awo",
+        "expire_date": "2023-03-26T16:39:01.373Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "b1iv5kaz4ik01m382lbw0vr26wbdc8jw",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-Zh1Kes5gbbxrHEC2FCcV4u4QKQW0b2beS0Tc1hK3zkucSZyFFqffbcL04LoDumO9NZlaXZd5krsiD9rltRE_L4f7d1Cwl2_tgqXBDMkTmOAmryhYAMxAROCdRcUhM0BmrxXpkXxwiHZ0bIJO6MX7A9X5N7Y:1pdMUB:oUO9oO8Clw9zK8wWLGpMogbYnFp-hBE3S7do4ai1MNE",
+        "expire_date": "2023-04-01T02:39:59.858Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "erd4yu0oup3onoynzpy6eefczkuhpset",
+    "fields": {
+        "session_data": ".eJxVjM0OwiAQhN-FsyGl_Cx69O4zkGVhpWogKe3J-O62SQ86x_m-mbcIuC4lrD3PYUriIpQ4_XYR6ZnrDtID671JanWZpyh3RR60y1tL-XU93L-Dgr1sawZjTUQgr5LLiWkEHoHOiTU4DWhA8UCeMSujrHVbjPfsBtbegSbx-QLu5TeX:1pdWkD:du4Rn0vCjbYrTYELYmYP5PhV0a3e2pa0l2PiDLmmByM",
+        "expire_date": "2023-04-01T13:37:13.616Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "f08tc1sgf332vvk7n74awsarkvtytyh9",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFAwAWP3v0GwrKLVA0kpT0Z_9026UFvk3lv5i1iWpca18FznEhchAZx-i0x5Se3ndAjtXuXubdlnlDuijzokLdO_Loe7t9BTaNua48ejCELQCUzZ09os7Jc2KiAgZWzxSoAZDTo8Ryc0-i0K2VLAEV8vicUOIc:1pdbQd:OjxXsg0oKlDLE1JOi5KNs4lqyUrBIFEp6NUVHNR0-M4",
+        "expire_date": "2023-04-01T18:37:19.924Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "pq24xajfngv6gj2h6qug47lhkuu1nk5k",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-Zh1Kes5gbbxrHEC2FCcV4u4QKQW0b2beS0Tc1hK3zkucSZyFFqffbcL04LoDumO9NZlaXZd5krsiD9rltRE_L4f7d1Cwl2_tgqXBDMkTmOAmryhYAMxAROCdRcUhM0BmrxXpkXxwiHZ0bIJO6MX7A9X5N7Y:1pdB5H:D_Dun00aAtMy5_wMb_MMeqkFNdArfSGHFY1ETIEh_BY",
+        "expire_date": "2023-03-31T14:29:31.318Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "x0l33tltf1b0jdx705e3aa0zeljlpgof",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-Zh1Kes5gbbxrHEC2FCcV4u4QKQW0b2beS0Tc1hK3zkucSZyFFqffbcL04LoDumO9NZlaXZd5krsiD9rltRE_L4f7d1Cwl2_tgqXBDMkTmOAmryhYAMxAROCdRcUhM0BmrxXpkXxwiHZ0bIJO6MX7A9X5N7Y:1pcdRT:ZaPtDgRvmua9zkdNWLVTqj9CVMCganCkLk9l7lapmUg",
+        "expire_date": "2023-03-30T02:34:11.361Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yceyo3pwdawzdgcno4bfwuwht1eza17e",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBhLAVcuu8ZyMAMUjVtUtqV8e7apAvd_vfef6lI21rj1mSJI6uLMqBOv2Oi_JBpJ3yn6TbrPE_rMia9K_qgTQ8zy_N6uH8HlVr91uAQwHi0kgKgBEFBk0MA8T3bQo6St0jI0HHxLlMBhGIc9WdOJJ16fwDuQDge:1pdNXm:v0MNbtk6ebm3LxNzqI3VMyWRbVg-IlS2LIC20CcH8Cs",
+        "expire_date": "2023-04-01T03:47:46.249Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "z35u5dtrcd5nmpcus4emyp4r2zfefjay",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBgLFNcuvcMZGBAqgaS0q6Md7dNutDte-__t_C0LsWvPc1-YnERWpx-WaD4THUX_KB6bzK2usxTkHsiD9vlrXF6XY_276BQL9saHDAyxlFjAgCDFhWPgewGWWWwGQjNoDADn1HnyAYxZocBVGA3iM8XzEM3ig:1paxSh:GKfFCrn4zM8svwWcozJZrO29KX3s8Sqsg-pgE6q_ZA4",
+        "expire_date": "2023-03-25T11:32:31.753Z"
+    }
+}
+]
