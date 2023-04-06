@@ -97,8 +97,9 @@ SITE_ID = 1
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {}
-DATABASES['default'] = dj_database_url.config(conn_max_age=600)
+DATABASES = {
+    'default': dj_database_url.config()
+}
 
 AUTH_USER_MODEL = 'hospital.User'
 # Password validation
