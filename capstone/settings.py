@@ -34,7 +34,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-v*(1-_jik(wb002!y9df#*itohv^h8ru4rqka^m1(+!rfr)%^!"
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -148,12 +148,12 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #Email config
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL_FROM_USER = "sanniabdulameen7@gmail.com"
-EMAIL_HOST = "smtp.gmail.com"
-EMAIL_USE_TLS =True
-EMAIL_PORT = "587"
-EMAIL_HOST_USER = "sanniabdulameen7@gmail.com"
-EMAIL_HOST_PASSWORD = "wrchnjrpahpgkjzg"
+EMAIL_FROM_USER = os.environ.get('EMAIL_FROM_USER')
+EMAIL_HOST = os.environ.get('EMAIL_HOST')
+EMAIL_USE_TLS = os.environ.get('EMAIL_USE_TLS')
+EMAIL_PORT = os.environ.get('EMAIL_PORT')
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
 #password timeout
 # PASSWORD_RESET_TIMEOUT_DAYS = 1
