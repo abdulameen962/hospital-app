@@ -27,8 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # environ.Env.read_env(os.path.join(BASE_DIR,'.env'))
 
 #for base images
-MEDIA_URL = "/media/"
-MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
+MEDIA_ROOT = os.path.join(BASE_DIR, "..", "www", "media")
+MEDIA_URL = '/media/'
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
@@ -154,7 +154,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'staticfiles', 'static'),
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'static')
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
