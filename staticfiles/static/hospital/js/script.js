@@ -11,7 +11,7 @@ const app = Vue.createApp({
                         <path d="M69.1871 71.8162C69.1866 71.1026 68.8849 70.4144 68.3485 69.9101C67.812 69.4058 67.0848 69.1227 66.3266 69.1229C65.5683 69.1232 64.8413 69.4068 64.3053 69.9115C63.7692 70.4162 63.4681 71.1006 63.4681 71.8142C63.4681 72.5278 63.7692 73.2122 64.3053 73.7168C64.8413 74.2215 65.5683 74.5052 66.3266 74.5054C67.0848 74.5057 67.812 74.2225 68.3485 73.7182C68.8849 73.2139 69.1866 72.5298 69.1871 71.8162Z" fill="white"/>
                     </svg>                    
                 `,
-                    "text": "We are a network of trained specialists providing services online",
+                    "text": "Lorem ipsum is simply dummy text",
                 },
                 {
                     "h6": "Patient",
@@ -21,7 +21,7 @@ const app = Vue.createApp({
                         <path d="M27.9563 48.9128C28.9699 48.922 29.9479 48.5272 30.6867 47.8107C31.4256 47.0942 31.8683 46.1111 31.9229 45.0661C31.9774 44.021 31.6396 42.9945 30.9796 42.2002C30.3196 41.4058 29.3884 40.9048 28.3797 40.8015L25.4952 48.9383L27.9563 48.9128Z"/>
                     </svg>                    
                 `,
-                    "text": "Having a hard time with a doctor or health? We are here for you",
+                    "text": "Doloribus, provident ipsum! Quibusdam",
                 },
                 {
                     "h6": "Admin",
@@ -31,7 +31,7 @@ const app = Vue.createApp({
                         <path d="M49.9722 35.5806C42.0837 35.5806 35.6944 41.9326 35.6944 49.775C35.6944 57.6174 42.0837 63.9695 49.9722 63.9695C57.8607 63.9695 64.25 57.6174 64.25 49.775C64.25 41.9326 57.8607 35.5806 49.9722 35.5806ZM49.9722 40.4776C52.1853 40.4776 53.97 42.2874 53.97 44.4521C53.97 46.6167 52.1496 48.4265 49.9722 48.4265C47.7949 48.4265 45.9744 46.6167 45.9744 44.4521C45.9744 42.2874 47.7592 40.4776 49.9722 40.4776ZM49.9722 59.5337C46.6526 59.5337 43.7614 57.9013 41.9767 55.3818C42.1551 52.8268 47.3665 51.5493 49.9722 51.5493C52.5779 51.5493 57.7893 52.8268 57.9678 55.3818C56.1831 57.9013 53.2918 59.5337 49.9722 59.5337Z"/>
                     </svg>                    
                     `,
-                    "text": "Reach out to us today and we will hook you up with a specialist today",
+                    "text": "Lorem ipsum dolor, sit amet consectetur",
                 },
             ],
             grids: [{
@@ -116,8 +116,8 @@ const app = Vue.createApp({
                         </g>
                     </svg>
                     `,
-                    "header": "Create Appointments",
-                    "text": "Enjoy the comfort of telemedicine appointments for remote consultations and prescriptions.",
+                    "header": "Make appointments",
+                    "text": "Laudantium omnis earum commodi esse, assumenda deleniti eum nemo porro earum",
                     "class": "service row appointment",
                 },
                 {
@@ -130,7 +130,7 @@ const app = Vue.createApp({
 
                     `,
                     "header": "Buy drugs",
-                    "text": "Find nearby pharmacies, transfer prescriptions, all in one place to make managing your health easier than ever before.",
+                    "text": "Laudantium omnis earum commodi esse, assumenda deleniti eum nemo porro earum",
                     "class": "service row pharmacy",
                 },
                 {
@@ -141,47 +141,47 @@ const app = Vue.createApp({
                     </svg>                    
                     `,
                     "header": "Doctor dashboard",
-                    "text": "Secure appointments with doctors, manage patients record, to enhance the performance of in-person visits",
+                    "text": "Laudantium omnis earum commodi esse, assumenda deleniti eum nemo porro earum",
                     "class": "service row dashboard",
                 },
             ],
             testimonials: [{
                     "image": "/static/hospital/images/person1.png",
                     "stars": "/static/hospital/images/stars/5stars.svg",
-                    "text": "I never thought finding the right doctor could be so easy. With this app, I was able to quickly book an appointment with a specialist and receive remote medical advice from the comfort of my own home.",
-                    "writer": "Daniella M.",
+                    "text": "Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.",
+                    "writer": "John Doe",
                     "post": "Patient",
                     "company": "/static/hospital/images/technologies/usertesting.png",
                 },
                 {
                     "image": "/static/hospital/images/person1.png",
                     "stars": "/static/hospital/images/stars/5stars.svg",
-                    "text": "As a doctor, I appreciate the convenience and efficiency of this platform. It allows me to schedule my training, connect with patients, and provide them with the best possible care.",
-                    "writer": "John Maxwell",
-                    "post": "Doctor",
+                    "text": "Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.",
+                    "writer": "AR Skakir",
+                    "post": "Patient",
                     "company": "/static/hospital/images/technologies/userzoom.png",
                 },
                 {
                     "image": "/static/hospital/images/person1.png",
                     "stars": "/static/hospital/images/stars/3stars.svg",
-                    "text": "I had a great experience using this app to locate nearby pharmacies and transfer my prescription. The medication reminders also helped me stay on track with my treatment plan.",
-                    "writer": "Ishmael",
-                    "post": "Patient",
+                    "text": "Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.",
+                    "writer": "Bolanle Adegbite",
+                    "post": "Doctor",
                     "company": "/static/hospital/images/technologies/html5.png",
                 },
                 {
                     "image": "/static/hospital/images/person1.png",
                     "stars": "/static/hospital/images/stars/4stars.svg",
-                    "text": "The hospital app helped me stay on top of my medication schedule with its handy reminder feature. It's amazing how something so simple can have such a big impact on my health.",
-                    "writer": "Regina",
+                    "text": "Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.",
+                    "writer": "Kunle Abdul",
                     "post": "Doctor",
                     "company": "/static/hospital/images/technologies/javascript.png",
                 },
                 {
                     "image": "/static/hospital/images/person1.png",
                     "stars": "/static/hospital/images/stars/5stars.svg",
-                    "text": "I never realized how important it was to have access to my health records until I started using this app.",
-                    "writer": "Samwell",
+                    "text": "Is be upon sang fond must shew. Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now.",
+                    "writer": "Tolani Bolade",
                     "post": "Patient",
                     "company": "/static/hospital/images/technologies/css3.png",
                 },
