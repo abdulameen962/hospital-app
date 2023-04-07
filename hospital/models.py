@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.utils import timezone
+from cloudinary.models import CloudinaryField
 
 Role_CHOICES = (
     ("Doctor","Doctor"),
@@ -10,7 +11,7 @@ Role_CHOICES = (
 # Create your models here.
 class User(AbstractUser):
     role = models.CharField(choices=Role_CHOICES,max_length=50,default="Patient")
-    profilepic = models.ImageField(upload_to="images/profilepic",default=None)
+    profilepic = CloudinaryField('image')
     is_email_verified = models.BooleanField(default=False)
     
     def serialize(self):
@@ -118,7 +119,7 @@ class Messages(models.Model):
         }
     
 class Pharmacy(models.Model):
-    drugpic = models.ImageField(upload_to="images/drugs", default=None)
+    drugpic = CloudinaryField('image')
     name = models.CharField(max_length=150)
     descr = models.TextField()
     prescription = models.TextField()

@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 import os
 from pathlib import Path
 import dj_database_url
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 # import environ
 # from decouple import config
 from dotenv import load_dotenv
@@ -48,13 +51,14 @@ CSRF_COOKIE_SECURE =  True
 
 INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
-    'hospital',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'hospital',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -69,6 +73,7 @@ MIDDLEWARE = [
 ]
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
 
 
 ROOT_URLCONF = 'capstone.urls'
@@ -108,6 +113,11 @@ DATABASES = {
     }
 }
 
+cloudinary.config( 
+  cloud_name = os.environ.get('cloud_name'), 
+  api_key = os.environ.get('api_key'), 
+  api_secret = os.environ.get('api_secret')
+)
 
 # DATABASES = {
 #     'default': {

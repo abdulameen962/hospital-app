@@ -1,0 +1,2155 @@
+.font, a.header-button, .primary-button, .secondary-button, h1, h2, h3, h4, h5, h6, p, button, .subtitle, a, input, textarea, nav.mainnav a.navbar-brand span, nav div.container-fluid div ul li a {
+  font-family: regular; }
+
+.font-weight, a.header-button, h1, h2, h3, h4, h5, h6, button, div.home-main > div.image div.intro_bottom > span, div.home-main > div.image div.grid_main div.dotted div.dotted_text p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left h4, footer div.footer-top div.footer_top_middle div ul h4, nav.mainnav a.navbar-brand span {
+  font-weight: 700; }
+
+div.main-extend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 110px 0px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.main-extend {
+      padding: 80px 0px; } }
+
+.font, a.header-button, .primary-button, .secondary-button, h1, h2, h3, h4, h5, h6, p, button, .subtitle, a, input, textarea, nav.mainnav a.navbar-brand span, nav div.container-fluid div ul li a {
+  font-family: regular; }
+
+.font-weight, a.header-button, h1, h2, h3, h4, h5, h6, button, div.home-main > div.image div.intro_bottom > span, div.home-main > div.image div.grid_main div.dotted div.dotted_text p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left h4, footer div.footer-top div.footer_top_middle div ul h4, nav.mainnav a.navbar-brand span {
+  font-weight: 700; }
+
+div.main-extend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 110px 0px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.main-extend {
+      padding: 80px 0px; } }
+
+@font-face {
+  font-family: regular;
+  src: url("./fonts/Quicksand-Regular.6cbafd2cb6e9.ttf"), local("sans-serif");
+  font-display: swap; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0; }
+    ul li span {
+      margin: 0;
+      padding: 0;
+      margin-left: -10px; }
+
+img {
+  height: auto;
+  width: auto; }
+
+a.header-button {
+  padding: 16px 26px;
+  line-height: 1.125em;
+  color: white;
+  text-decoration: none;
+  border-radius: 80px;
+  color: rgba(255, 0, 0, 0.8);
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 8px 17px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease; }
+  a.header-button:hover {
+    box-shadow: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05); }
+
+div.buttons {
+  width: 100%; }
+  div.buttons a.secondary-button {
+    color: #292C32;
+    margin-left: 30px; }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      div.buttons a.secondary-button {
+        margin: 0;
+        margin-top: 20px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; } }
+
+.primary-button {
+  padding: 14px 34px;
+  font-size: 18px;
+  line-height: 1.389em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border-radius: 80px;
+  color: rgba(255, 0, 0, 0.8);
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 8px 17px 20px rgba(0, 0, 0, 0.05); }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .primary-button {
+      padding: 15px 40px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .primary-button {
+      padding: 15px 34px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    .primary-button {
+      width: 100%;
+      text-align: center; } }
+  .primary-button:hover {
+    box-shadow: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05); }
+
+.secondary-button {
+  padding: 14px 34px;
+  font-size: 18px;
+  line-height: 1.389em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border-radius: 80px;
+  background: transparent;
+  color: #292C32;
+  border: 1px solid #292C32; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .secondary-button {
+      padding: 15px 40px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .secondary-button {
+      padding: 15px 34px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    .secondary-button {
+      width: 100%;
+      text-align: center; } }
+  .secondary-button:hover {
+    transform: translateY(-5px);
+    border: 1px solid #0d6efd;
+    color: #0d6efd; }
+
+div.resize {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 12px; }
+
+div.resize-small {
+  max-width: 551px; }
+
+div.resize-medium {
+  max-width: 994px;
+  width: 100%;
+  padding: 0px 24px; }
+
+div.subtitle-main {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start; }
+  div.subtitle-main div.subtitle-line {
+    width: 50px;
+    background: #292C32;
+    height: 2px;
+    margin-right: 15px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.subtitle-main {
+      margin-bottom: 10px; } }
+
+h1 {
+  line-height: 1.308em;
+  font-size: 48px;
+  margin-bottom: 0px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h1 {
+      font-size: 43px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h1 {
+      font-size: 36px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h1 {
+      font-size: 30px; } }
+
+h2 {
+  line-height: 1.316em;
+  font-size: 38px;
+  margin-bottom: 10px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h2 {
+      font-size: 38px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h2 {
+      font-size: 32px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h2 {
+      font-size: 26px; } }
+
+h3 {
+  line-height: 1.375em;
+  font-size: 24px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h3 {
+      font-size: 24px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h3 {
+      font-size: 22px;
+      line-height: 30px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h3 {
+      font-size: 20px;
+      line-height: 30px; } }
+
+h4 {
+  font-size: 22px;
+  line-height: 1.091em; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h4 {
+      font-size: 20px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h4 {
+      font-size: 18px; } }
+
+h5 {
+  line-height: 1.389em;
+  font-size: 18px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h5 {
+      font-size: 16px; } }
+
+h6 {
+  font-size: 16px;
+  line-height: 1.125em; }
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.800em;
+  padding: 10px 0px; }
+
+button {
+  font-size: 16px; }
+
+.subtitle {
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: 300; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .subtitle {
+      font-size: 18px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .subtitle {
+      font-size: 16px; } }
+
+.medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+  font-size: 20px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+      font-size: 18px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+      font-size: 16px; } }
+
+a {
+  font-size: 16px;
+  text-decoration: none; }
+
+input {
+  font-size: 16px; }
+
+textarea {
+  font-size: 16px; }
+
+.font, a.header-button, .primary-button, .secondary-button, h1, h2, h3, h4, h5, h6, p, button, .subtitle, a, input, textarea, nav.mainnav a.navbar-brand span, nav div.container-fluid div ul li a {
+  font-family: regular; }
+
+.font-weight, a.header-button, h1, h2, h3, h4, h5, h6, button, div.home-main > div.image div.intro_bottom > span, div.home-main > div.image div.grid_main div.dotted div.dotted_text p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left h4, footer div.footer-top div.footer_top_middle div ul h4, nav.mainnav a.navbar-brand span {
+  font-weight: 700; }
+
+div.main-extend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 110px 0px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.main-extend {
+      padding: 80px 0px; } }
+
+.font, a.header-button, .primary-button, .secondary-button, h1, h2, h3, h4, h5, h6, p, button, .subtitle, a, input, textarea, nav.mainnav a.navbar-brand span, nav div.container-fluid div ul li a {
+  font-family: regular; }
+
+.font-weight, a.header-button, h1, h2, h3, h4, h5, h6, button, div.home-main > div.image div.intro_bottom > span, div.home-main > div.image div.grid_main div.dotted div.dotted_text p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p, div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left h4, footer div.footer-top div.footer_top_middle div ul h4, nav.mainnav a.navbar-brand span {
+  font-weight: 700; }
+
+div.main-extend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 110px 0px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.main-extend {
+      padding: 80px 0px; } }
+
+@font-face {
+  font-family: regular;
+  src: url("./fonts/Quicksand-Regular.6cbafd2cb6e9.ttf"), local("sans-serif");
+  font-display: swap; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0; }
+    ul li span {
+      margin: 0;
+      padding: 0;
+      margin-left: -10px; }
+
+img {
+  height: auto;
+  width: auto; }
+
+a.header-button {
+  padding: 16px 26px;
+  line-height: 1.125em;
+  color: white;
+  text-decoration: none;
+  border-radius: 80px;
+  color: rgba(255, 0, 0, 0.8);
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 8px 17px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease; }
+  a.header-button:hover {
+    box-shadow: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05); }
+
+div.buttons {
+  width: 100%; }
+  div.buttons a.secondary-button {
+    color: #292C32;
+    margin-left: 30px; }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      div.buttons a.secondary-button {
+        margin: 0;
+        margin-top: 20px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.buttons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; } }
+
+.primary-button {
+  padding: 14px 34px;
+  font-size: 18px;
+  line-height: 1.389em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border-radius: 80px;
+  color: rgba(255, 0, 0, 0.8);
+  background: white;
+  transition: all 0.3s ease;
+  box-shadow: 8px 17px 20px rgba(0, 0, 0, 0.05); }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .primary-button {
+      padding: 15px 40px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .primary-button {
+      padding: 15px 34px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    .primary-button {
+      width: 100%;
+      text-align: center; } }
+  .primary-button:hover {
+    box-shadow: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05); }
+
+.secondary-button {
+  padding: 14px 34px;
+  font-size: 18px;
+  line-height: 1.389em;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border-radius: 80px;
+  background: transparent;
+  color: #292C32;
+  border: 1px solid #292C32; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .secondary-button {
+      padding: 15px 40px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .secondary-button {
+      padding: 15px 34px;
+      font-size: 16px;
+      line-height: 1.125em; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    .secondary-button {
+      width: 100%;
+      text-align: center; } }
+  .secondary-button:hover {
+    transform: translateY(-5px);
+    border: 1px solid #0d6efd;
+    color: #0d6efd; }
+
+div.resize {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0px 12px; }
+
+div.resize-small {
+  max-width: 551px; }
+
+div.resize-medium {
+  max-width: 994px;
+  width: 100%;
+  padding: 0px 24px; }
+
+div.subtitle-main {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start; }
+  div.subtitle-main div.subtitle-line {
+    width: 50px;
+    background: #292C32;
+    height: 2px;
+    margin-right: 15px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.subtitle-main {
+      margin-bottom: 10px; } }
+
+h1 {
+  line-height: 1.308em;
+  font-size: 48px;
+  margin-bottom: 0px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h1 {
+      font-size: 43px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h1 {
+      font-size: 36px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h1 {
+      font-size: 30px; } }
+
+h2 {
+  line-height: 1.316em;
+  font-size: 38px;
+  margin-bottom: 10px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h2 {
+      font-size: 38px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h2 {
+      font-size: 32px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h2 {
+      font-size: 26px; } }
+
+h3 {
+  line-height: 1.375em;
+  font-size: 24px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h3 {
+      font-size: 24px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h3 {
+      font-size: 22px;
+      line-height: 30px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h3 {
+      font-size: 20px;
+      line-height: 30px; } }
+
+h4 {
+  font-size: 22px;
+  line-height: 1.091em; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    h4 {
+      font-size: 20px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    h4 {
+      font-size: 18px; } }
+
+h5 {
+  line-height: 1.389em;
+  font-size: 18px; }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    h5 {
+      font-size: 16px; } }
+
+h6 {
+  font-size: 16px;
+  line-height: 1.125em; }
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.800em;
+  padding: 10px 0px; }
+
+button {
+  font-size: 16px; }
+
+.subtitle {
+  font-size: 20px;
+  line-height: 1.2em;
+  font-weight: 300; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .subtitle {
+      font-size: 18px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .subtitle {
+      font-size: 16px; } }
+
+.medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+  font-size: 20px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    .medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+      font-size: 18px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    .medtext, div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+      font-size: 16px; } }
+
+a {
+  font-size: 16px;
+  text-decoration: none; }
+
+input {
+  font-size: 16px; }
+
+textarea {
+  font-size: 16px; }
+
+div.home-main {
+  margin: 70px 0px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.home-main {
+      margin: 40px 0px; } }
+  @media screen and (min-width: 0em) and (max-width: 479px) {
+    div.home-main {
+      margin: 20px 0px; } }
+  div.home-main > div.text h1 {
+    line-height: 1.350em; }
+  div.home-main > div.text div.blocks {
+    margin: 35px 0px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.home-main > div.text div.blocks {
+        margin: 15px 0px; } }
+    div.home-main > div.text div.blocks div.block {
+      margin: 0;
+      padding: 0;
+      margin: 10px 0px;
+      cursor: pointer;
+      border-radius: 22px;
+      align-items: center;
+      padding: 22px 5px;
+      transition: all 0.5s ease;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(30px);
+      border: 2px solid transparent;
+      background-clip: padding-box; }
+      div.home-main > div.text div.blocks div.block:hover {
+        box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+        background: white; }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.home-main > div.text div.blocks div.block {
+          box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.05);
+          background: white;
+          margin: 25px 0px; } }
+      div.home-main > div.text div.blocks div.block_image {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.text div.blocks div.block_image {
+            justify-content: flex-start; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.text div.blocks div.block_image {
+            justify-content: center; } }
+        div.home-main > div.text div.blocks div.block_image div.image-container {
+          padding: 10px;
+          min-width: 70%;
+          max-width: 90%;
+          background: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+          box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.05); }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.home-main > div.text div.blocks div.block_image div.image-container {
+              box-shadow: none;
+              justify-content: flex-start;
+              padding-left: 0px;
+              max-width: 100%;
+              width: 100%; } }
+          div.home-main > div.text div.blocks div.block_image div.image-container span {
+            color: #FFA90F;
+            font-size: 25px; }
+          div.home-main > div.text div.blocks div.block_image div.image-container svg.icon {
+            width: 40px;
+            height: 32px; }
+            div.home-main > div.text div.blocks div.block_image div.image-container svg.icon path {
+              fill: #FFA90F; }
+      div.home-main > div.text div.blocks div.block_text {
+        margin: 0;
+        padding: 0;
+        padding: 0px 0px 0px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.text div.blocks div.block_text {
+            margin: 0;
+            padding: 0; } }
+        div.home-main > div.text div.blocks div.block_text h6 {
+          margin: 0;
+          padding: 0;
+          padding-bottom: 5px; }
+        div.home-main > div.text div.blocks div.block_text p {
+          font-size: 13px;
+          margin: 0;
+          padding: 0;
+          color: #64607D; }
+  div.home-main > div.image {
+    position: relative;
+    margin: 0;
+    padding: 0; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.home-main > div.image {
+        height: 600px; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.home-main > div.image {
+        height: auto; } }
+    div.home-main > div.image img.background {
+      width: 550px;
+      height: 600px;
+      border-radius: 30px;
+      position: absolute;
+      top: -30px;
+      right: 40px;
+      z-index: -3; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        div.home-main > div.image img.background {
+          top: 0px;
+          right: 90px; } }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.home-main > div.image img.background {
+          position: relative;
+          right: 0px;
+          z-index: 1;
+          height: auto;
+          margin: 0;
+          padding: 0;
+          max-width: 100%; } }
+    div.home-main > div.image div.intro {
+      width: 250px;
+      border-radius: 15px;
+      background: white;
+      box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
+      padding: 15px 15px;
+      position: absolute;
+      top: 15px;
+      left: 80px;
+      cursor: pointer; }
+      div.home-main > div.image div.intro:hover {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05); }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        div.home-main > div.image div.intro {
+          left: 20px; } }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.home-main > div.image div.intro {
+          position: relative;
+          top: 0px;
+          left: 0px;
+          margin: 25px 0px;
+          width: auto; } }
+      div.home-main > div.image div.intro_top {
+        margin: 0;
+        padding: 0; }
+        div.home-main > div.image div.intro_top_left {
+          margin: 0;
+          padding: 0; }
+          div.home-main > div.image div.intro_top_left h6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: flex-start; }
+            div.home-main > div.image div.intro_top_left h6 span {
+              padding-right: 5px; }
+            div.home-main > div.image div.intro_top_left h6 svg.boost {
+              width: 35px;
+              height: 25px; }
+        div.home-main > div.image div.intro_top_right {
+          margin: 0;
+          padding: 0; }
+          div.home-main > div.image div.intro_top_right svg.coin {
+            width: 25px;
+            height: 20px; }
+      div.home-main > div.image div.intro_bottom {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 5px; }
+        div.home-main > div.image div.intro_bottom p.producivity {
+          margin: 0;
+          padding: 0;
+          line-height: 20px; }
+          div.home-main > div.image div.intro_bottom p.producivity b {
+            font-size: 32px;
+            color: #302cff; }
+        div.home-main > div.image div.intro_bottom > span {
+          line-height: 20px;
+          padding-left: 10px; }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.home-main > div.image div.intro_bottom > span {
+              padding-left: 0px; } }
+    div.home-main > div.image div.grid {
+      position: absolute;
+      right: -80px;
+      bottom: -30px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        div.home-main > div.image div.grid {
+          right: 20px;
+          bottom: 30px; } }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.home-main > div.image div.grid {
+          position: relative;
+          right: 0px;
+          bottom: 0px; } }
+      div.home-main > div.image div.grid > header {
+        margin-bottom: 10px; }
+        div.home-main > div.image div.grid > header h5 {
+          margin: 0;
+          padding: 0; }
+      div.home-main > div.image div.grid_main {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0px 30px;
+        gap: 10px;
+        width: 400px; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.grid_main {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0px 30px;
+            width: auto;
+            gap: 20px 10px; } }
+        @media screen and (min-width: 0em) and (max-width: 479px) {
+          div.home-main > div.image div.grid_main {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 0px 30px; } }
+        div.home-main > div.image div.grid_main_single {
+          background: white;
+          border-radius: 10px;
+          padding: 10px 0px;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.05); }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.home-main > div.image div.grid_main_single {
+              padding: 10px 0px; } }
+          div.home-main > div.image div.grid_main_single_inner {
+            width: 45px;
+            position: relative; }
+            @media screen and (min-width: 0px) and (max-width: 740px) {
+              div.home-main > div.image div.grid_main_single_inner {
+                width: 60%; } }
+            div.home-main > div.image div.grid_main_single_inner_image {
+              width: 100%;
+              box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+              border-radius: 15px; }
+              @media screen and (min-width: 0px) and (max-width: 740px) {
+                div.home-main > div.image div.grid_main_single_inner_image {
+                  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05); } }
+              div.home-main > div.image div.grid_main_single_inner_image img {
+                max-width: 100%;
+                border-radius: 15px; }
+            div.home-main > div.image div.grid_main_single_inner_text {
+              margin: 10px 0px 0px 0px; }
+              div.home-main > div.image div.grid_main_single_inner_text p {
+                margin: 0;
+                padding: 0;
+                font-size: 15px;
+                line-height: 20px;
+                text-align: center;
+                font-weight: 200; }
+        div.home-main > div.image div.grid_main div.dotted {
+          background: #FFA90F;
+          border: 2px dashed #292C32; }
+          div.home-main > div.image div.grid_main div.dotted div.dotted_image {
+            margin: 0;
+            padding: 0; }
+            div.home-main > div.image div.grid_main div.dotted div.dotted_image h3 {
+              margin: 0;
+              padding: 0;
+              font-size: 35px;
+              text-align: center; }
+          div.home-main > div.image div.grid_main div.dotted div.dotted_text {
+            margin: 0;
+            padding: 0; }
+            div.home-main > div.image div.grid_main div.dotted div.dotted_text p {
+              font-size: 30px;
+              text-align: center;
+              margin: 0;
+              padding: 0; }
+    div.home-main > div.image div.links {
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.home-main > div.image div.links {
+          display: flex;
+          margin: 35px 0px 0px 0px;
+          height: auto; } }
+      div.home-main > div.image div.links div.link {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.links div.link {
+            position: relative;
+            margin: 0px 10px; } }
+        div.home-main > div.image div.links div.link svg.icon {
+          margin: 0;
+          padding: 0;
+          display: block;
+          margin: auto;
+          width: 26px;
+          height: 24px; }
+          div.home-main > div.image div.links div.link svg.icon path {
+            fill: white; }
+      div.home-main > div.image div.links div.whatsapp {
+        background: #86D175;
+        box-shadow: -4px -1px 0px 3px #40B626;
+        border-radius: 5px;
+        transform: rotate(-20deg);
+        top: -40px;
+        left: 330px; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.image div.links div.whatsapp {
+            left: 470px;
+            top: 0px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.links div.whatsapp {
+            top: 0px;
+            left: 0px;
+            transform: rotate(0deg); } }
+      div.home-main > div.image div.links div.email {
+        background: #FED978;
+        box-shadow: -4px -1px 0px 3px #FDB803;
+        border-radius: 5px;
+        transform: rotate(-20deg);
+        right: -80px;
+        top: 120px; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.image div.links div.email {
+            right: 20px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.links div.email {
+            right: 0px;
+            top: 0px;
+            transform: rotate(0deg); } }
+      div.home-main > div.image div.links div.twitter {
+        background: #F38644;
+        box-shadow: -4px -1px 0px 3px #F15B00;
+        border-radius: 5px;
+        transform: rotate(-20deg);
+        right: -60px;
+        top: 260px; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.image div.links div.twitter {
+            right: 60px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.links div.twitter {
+            right: 0px;
+            top: 0px;
+            transform: rotate(0deg); } }
+      div.home-main > div.image div.links div.linkedin {
+        background: #8DABCD;
+        box-shadow: -4px -1px 0px 3px #1D6DC6;
+        border-radius: 5px;
+        transform: rotate(-20deg);
+        left: 160px;
+        bottom: 30px; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.home-main > div.image div.links div.linkedin {
+            left: 90px;
+            bottom: 50px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.home-main > div.image div.links div.linkedin {
+            left: 0px;
+            top: 0px;
+            transform: rotate(0deg); } }
+
+div.middle {
+  margin: 60px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.middle {
+      margin: 20px 0px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.middle {
+      flex-direction: column-reverse;
+      margin: 60px 0px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.middle div.middle_main_image {
+      display: flex;
+      justify-content: center;
+      align-items: center; } }
+  div.middle div.middle_main_image_container {
+    background: linear-gradient(90deg, #D9D9D9 29.15%, rgba(217, 217, 217, 0.5) 100%);
+    box-shadow: 0px 0px 5px 2px #808080;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.middle div.middle_main_image_container {
+        margin-top: 20px; } }
+    div.middle div.middle_main_image_container svg {
+      width: 130px;
+      height: 125px; }
+  div.middle div.middle_images {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0px 30px;
+    gap: 40px 20px; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.middle div.middle_images {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0px 30px;
+        gap: 30px 30px; } }
+    div.middle div.middle_images div.logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: flex-start; }
+      div.middle div.middle_images div.logo img {
+        max-width: 150px;
+        min-width: 120px; }
+
+div.about {
+  margin: 110px 0px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0px 30px;
+  gap: 10px 45px;
+  background-image: url("../images/aboutline.d9ac184b40c1.svg");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  background-position: -32px 10px;
+  position: relative; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0px 30px;
+      background-image: none;
+      gap: 20px 45px;
+      margin: 0px 0px; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.about {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      gap: 0px 30px;
+      gap: 0px;
+      margin: 110px 0px; } }
+  div.about > svg {
+    width: 600px;
+    height: 456px;
+    position: absolute;
+    top: -50px;
+    right: -240px; }
+  div.about div.about_block {
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.about div.about_block {
+        height: auto; } }
+    div.about div.about_block div.about_header_main p {
+      margin: 0;
+      padding: 0;
+      line-height: 1.4em;
+      color: #64607D;
+      font-weight: 200; }
+    div.about div.about_block div.about_header_main p.subtitle {
+      color: #FFA90F; }
+    div.about div.about_block div.about_header_main h2 {
+      margin: 0;
+      padding: 0; }
+    div.about div.about_block div.about_header_main p:not(p.subtitle) {
+      margin: 6px 0px 0px 0px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about div.main {
+      grid-column: 1 / 3; } }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about div.content {
+      height: 210px;
+      margin: 20px 0px; } }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about div.empty {
+      display: none; } }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.about div.empty {
+      display: block; } }
+  div.about div.main,
+  div.about div.step_1 {
+    justify-content: flex-start; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.about div.main,
+      div.about div.step_1 {
+        justify-content: flex-end; } }
+  div.about div.step_1 svg {
+    width: 41px;
+    height: 152px;
+    position: absolute;
+    right: 0px;
+    top: -70px;
+    z-index: -3; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.about div.step_1 svg {
+        display: none; } }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about div.step_1 {
+      background-image: url("../images/1.c77a37629e27.svg");
+      background-repeat: no-repeat;
+      background-position: top right; } }
+  div.about div.step_2 {
+    background-image: url("../images/2.6b9975336d7c.svg");
+    background-repeat: no-repeat;
+    background-position: top right; }
+  div.about div.step_3 {
+    background-image: url("../images/3.9fd9d3dd4083.svg");
+    background-repeat: no-repeat;
+    background-position: top right; }
+  div.about div.steps {
+    align-items: flex-end; }
+    div.about div.steps div.about_header_main {
+      width: 300px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.about div.steps {
+        align-items: flex-start; } }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      div.about div.steps {
+        align-items: flex-end; } }
+
+div.services {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative; }
+  div.services div.service-text div.services_header_main {
+    width: 400px; }
+    div.services div.service-text div.services_header_main p.subtitle {
+      margin: 0;
+      padding: 0;
+      color: #FFA90F; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.services div.service-text div.services_header_main {
+        width: auto; } }
+  div.services div.service-text div.services-container {
+    margin: 45px 0px 0px 0px;
+    width: 400px; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.services div.service-text div.services-container {
+        width: auto; } }
+    div.services div.service-text div.services-container div.service {
+      margin: 25px 0px; }
+      div.services div.service-text div.services-container div.service div.service_container_text {
+        padding: 0px 0px 0px 20px; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.services div.service-text div.services-container div.service div.service_container_text {
+            padding: 8px 0px; } }
+        div.services div.service-text div.services-container div.service div.service_container_text h3 {
+          margin: 0;
+          padding: 0; }
+        div.services div.service-text div.services-container div.service div.service_container_text p {
+          color: #64607D;
+          margin: 0;
+          padding: 0;
+          padding: 5px 0px;
+          line-height: 1.4em; }
+      div.services div.service-text div.services-container div.service div.service_container_image {
+        margin: 0;
+        padding: 0;
+        padding: 10px; }
+        div.services div.service-text div.services-container div.service div.service_container_image svg {
+          transform: scale(1.3); }
+  div.services div.service-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-start; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.services div.service-image {
+        justify-content: flex-start; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.services div.service-image {
+        justify-content: center; } }
+    div.services div.service-image img.gradient {
+      position: absolute;
+      right: -220px;
+      top: -50px;
+      z-index: -2; }
+    div.services div.service-image div.image_container {
+      background: #FFFFFF;
+      box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+      border-radius: 25px;
+      padding: 25px 35px; }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.services div.service-image div.image_container {
+          padding: 20px; } }
+      div.services div.service-image div.image_container img {
+        min-width: 350px;
+        max-width: 400px; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.services div.service-image div.image_container img {
+            min-width: 150px;
+            width: 100%; } }
+    div.services div.service-image div.image_container_text {
+      margin: 25px 0px 0px 0px; }
+      div.services div.service-image div.image_container_text h3 {
+        margin: 0;
+        padding: 0; }
+      div.services div.service-image div.image_container_text p {
+        margin: 0;
+        padding: 0;
+        padding: 10px 0px;
+        color: #64607D; }
+    div.services div.service-image div.image_links {
+      margin: 10px 0px 15px 0px; }
+      div.services div.service-image div.image_links div.svg-container {
+        margin: 0;
+        padding: 0; }
+        div.services div.service-image div.image_links div.svg-container svg {
+          transform: scale(1.2);
+          cursor: pointer; }
+    div.services div.service-image div.image_checkup {
+      margin: 0;
+      padding: 0; }
+      div.services div.service-image div.image_checkup div.image_checkup_image {
+        margin: 0;
+        padding: 0; }
+      div.services div.service-image div.image_checkup div.image_container_text {
+        margin: 0;
+        padding: 0; }
+        div.services div.service-image div.image_checkup div.image_container_text p {
+          margin: 0;
+          padding: 0; }
+
+div.testimonials {
+  margin: 50px 0px; }
+  div.testimonials div.testimonial_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 0px 50px 0px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.testimonials div.testimonial_header {
+        margin: 50px 0px 20px 0px; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials div.testimonial_header {
+        display: block;
+        margin: 0;
+        padding: 0; } }
+    div.testimonials div.testimonial_header p {
+      margin: 0;
+      padding: 0;
+      color: #FFA90F; }
+    div.testimonials div.testimonial_header h2 {
+      margin: 0;
+      padding: 0; }
+  div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide {
+        flex-direction: column-reverse; } }
+    div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.image-container {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.image-container img {
+        max-width: 100%;
+        margin-left: 40px; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.image-container img {
+            width: 90%;
+            margin-left: 0px; } }
+    div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container {
+      padding: 0px 40px 0px 120px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container {
+          padding: 40px 30px; } }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container {
+          padding: 40px 20px; } }
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container svg.testimonial-icon {
+        margin-bottom: 15px;
+        transform: scale(1.1); }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container svg.testimonial-icon {
+            transform: scale(1); } }
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container svg.testimonial-icon path {
+          fill: #FFA90F; }
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.stars {
+        margin: 10px 0px; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.stars {
+            margin: 0px; } }
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p {
+        font-size: 25px;
+        line-height: 1.5em; }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container > p {
+            font-size: 20px; } }
+      div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit {
+        margin-top: 20px; }
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left h4 {
+          margin: 0;
+          padding: 0; }
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_left p {
+          margin: 0;
+          padding: 0;
+          font-size: 18px; }
+        div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_right {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          @media screen and (min-width: 0px) and (max-width: 991px) {
+            div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_right {
+              justify-content: flex-start; } }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_right {
+              display: block;
+              margin: 15px 0px; } }
+          div.testimonials section.testimonial-slider > div > ul > li > div.testimonial-slide div.text-container div.credit div.credit_right img {
+            max-width: 150px; }
+  div.testimonials section.testimonial-slider > div > button {
+    position: absolute;
+    top: 50%;
+    background: none;
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.testimonials section.testimonial-slider > div > button {
+        width: 60px;
+        height: 60px; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials section.testimonial-slider > div > button {
+        top: 80%; } }
+    div.testimonials section.testimonial-slider > div > button svg {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+  div.testimonials section.testimonial-slider > div button.next {
+    left: 400px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.testimonials section.testimonial-slider > div button.next {
+        left: 260px; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials section.testimonial-slider > div button.next {
+        left: 80%; } }
+  div.testimonials section.testimonial-slider > div button.prev {
+    left: 0px; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials section.testimonial-slider > div button.prev {
+        left: -10px; } }
+  div.testimonials section.testimonial-slider ul.splide__pagination {
+    width: 500px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      div.testimonials section.testimonial-slider ul.splide__pagination {
+        width: 300px; } }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.testimonials section.testimonial-slider ul.splide__pagination {
+        width: 100%; } }
+    div.testimonials section.testimonial-slider ul.splide__pagination li {
+      transform: scale(1.2);
+      margin: 0px 10px 0px 0px; }
+      div.testimonials section.testimonial-slider ul.splide__pagination li button {
+        transition: all 0.3s ease; }
+        div.testimonials section.testimonial-slider ul.splide__pagination li button:hover {
+          background: #FFA90F; }
+    div.testimonials section.testimonial-slider ul.splide__pagination .is-active {
+      background: #FFA90F; }
+
+footer {
+  margin-top: 100px; }
+  footer div.footer-top div.footer_top_middle {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0px 30px;
+    gap: 0px 20px; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      footer div.footer-top div.footer_top_middle {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0px 30px;
+        gap: 20px; } }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      footer div.footer-top div.footer_top_middle {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 0px 30px;
+        gap: 20px 0px; } }
+    footer div.footer-top div.footer_top_middle div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-items: flex-start;
+      padding-top: 10px; }
+      @media screen and (min-width: 0em) and (max-width: 479px) {
+        footer div.footer-top div.footer_top_middle div {
+          justify-content: flex-start; } }
+      footer div.footer-top div.footer_top_middle div ul {
+        width: 90%; }
+        footer div.footer-top div.footer_top_middle div ul li {
+          list-style-type: none;
+          padding: 5px 0px; }
+          footer div.footer-top div.footer_top_middle div ul li a {
+            text-decoration: none;
+            color: #292C32;
+            font-size: 18px; }
+            footer div.footer-top div.footer_top_middle div ul li a:hover {
+              color: #eeca86;
+              transition: all 0.5s ease; }
+  footer div.footer-top div.end {
+    padding-top: 20px; }
+  footer ul.social-links li {
+    padding: 0px 8px;
+    display: inline-block; }
+    footer ul.social-links li a {
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+      width: 41px;
+      height: 41px;
+      transition: all 0.3s ease;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer ul.social-links li a:hover {
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); }
+  footer div.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px; }
+    footer div.footer-bottom > div {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      footer div.footer-bottom > div a {
+        text-decoration: none;
+        color: #292C32;
+        text-decoration: underline;
+        font-size: 18px; }
+    footer div.footer-bottom span {
+      font-size: 18px; }
+
+div.login div.message,
+div.register div.message,
+div.set-password div.message,
+div.password-change div.message,
+div.edit div.message {
+  font-size: 18px;
+  border-radius: 10px;
+  border: 4px solid #0d6efd;
+  padding: 15px 8px;
+  background: rgba(13, 110, 253, 0.4);
+  margin: 10px 0px; }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.login div.message,
+    div.register div.message,
+    div.set-password div.message,
+    div.password-change div.message,
+    div.edit div.message {
+      font-size: 16px; } }
+
+div.login form div.form-group,
+div.register form div.form-group,
+div.set-password form div.form-group,
+div.password-change form div.form-group,
+div.edit form div.form-group {
+  margin: 20px 0px; }
+  div.login form div.form-group input:not([type="submit"]),
+  div.register form div.form-group input:not([type="submit"]),
+  div.set-password form div.form-group input:not([type="submit"]),
+  div.password-change form div.form-group input:not([type="submit"]),
+  div.edit form div.form-group input:not([type="submit"]) {
+    padding: 10px 5px; }
+  div.login form div.form-group input[type="file"],
+  div.register form div.form-group input[type="file"],
+  div.set-password form div.form-group input[type="file"],
+  div.password-change form div.form-group input[type="file"],
+  div.edit form div.form-group input[type="file"] {
+    padding: 0; }
+    div.login form div.form-group input[type="file"]::-webkit-file-upload-button,
+    div.register form div.form-group input[type="file"]::-webkit-file-upload-button,
+    div.set-password form div.form-group input[type="file"]::-webkit-file-upload-button,
+    div.password-change form div.form-group input[type="file"]::-webkit-file-upload-button,
+    div.edit form div.form-group input[type="file"]::-webkit-file-upload-button {
+      border-radius: 10px;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius: 40px;
+      font-size: 18px;
+      padding: 15px 20px;
+      color: white;
+      background: #0d6efd;
+      transition: all 0.3s ease; }
+      div.login form div.form-group input[type="file"]::-webkit-file-upload-button:hover,
+      div.register form div.form-group input[type="file"]::-webkit-file-upload-button:hover,
+      div.set-password form div.form-group input[type="file"]::-webkit-file-upload-button:hover,
+      div.password-change form div.form-group input[type="file"]::-webkit-file-upload-button:hover,
+      div.edit form div.form-group input[type="file"]::-webkit-file-upload-button:hover {
+        opacity: 0.8;
+        background: #0d6efd;
+        color: #FFA90F; }
+  div.login form div.form-group textarea,
+  div.register form div.form-group textarea,
+  div.set-password form div.form-group textarea,
+  div.password-change form div.form-group textarea,
+  div.edit form div.form-group textarea {
+    height: 200px;
+    resize: none; }
+
+div.login form input[type="submit"],
+div.register form input[type="submit"],
+div.set-password form input[type="submit"],
+div.password-change form input[type="submit"],
+div.edit form input[type="submit"] {
+  font-size: 20px;
+  padding: 10px 25px; }
+
+div.login .subtitle,
+div.register .subtitle,
+div.set-password .subtitle,
+div.password-change .subtitle,
+div.edit .subtitle {
+  margin: 0;
+  padding: 0;
+  padding: 10px 0px; }
+
+div.patient_dashboard {
+  margin: 30px 0px; }
+  div.patient_dashboard div.patient-header {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding: 20px 15px; }
+    div.patient_dashboard div.patient-header > form {
+      margin: 20px 0px 0px 0px; }
+      div.patient_dashboard div.patient-header > form ul.searchoptions {
+        background: white;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        width: 100%; }
+        div.patient_dashboard div.patient-header > form ul.searchoptions li {
+          list-style-type: none;
+          cursor: pointer;
+          padding: 10px 23px;
+          font-size: 18px;
+          color: rgba(41, 44, 50, 0.7);
+          transition: all 0.3s ease; }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.patient_dashboard div.patient-header > form ul.searchoptions li {
+              font-size: 16px; } }
+          div.patient_dashboard div.patient-header > form ul.searchoptions li:hover {
+            box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05); }
+  div.patient_dashboard div.patient-main {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding: 20px 15px;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0px 20px 0px; }
+    div.patient_dashboard div.patient-main > header {
+      padding: 10px 15px;
+      border-bottom: 1px solid #E7E9EE; }
+    div.patient_dashboard div.patient-main div#doctors {
+      overflow-x: hidden; }
+      div.patient_dashboard div.patient-main div#doctors p.not-found {
+        font-size: 18px;
+        padding: 10px 15px; }
+      div.patient_dashboard div.patient-main div#doctors div.doctor-profile {
+        padding: 35px 0px;
+        border-bottom: 1px solid #E7E9EE; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.patient_dashboard div.patient-main div#doctors div.doctor-profile {
+            padding: 35px 10px; } }
+        div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image {
+          padding: 15px 0px 0px 25px; }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image {
+              padding: 15px 0px 0px 10px; } }
+          div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image img {
+            border-radius: 15px;
+            max-width: 400px;
+            min-width: 250px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+            @media screen and (min-width: 0px) and (max-width: 991px) {
+              div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image img {
+                min-width: 260px; } }
+            @media screen and (min-width: 0px) and (max-width: 740px) {
+              div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image img {
+                min-width: 220px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text {
+            margin: 20px 0px 0px 0px; } }
+        div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text h3 {
+          font-size: 30px;
+          margin: 0;
+          padding: 0; }
+        div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text p {
+          margin: 0px; }
+        div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text ul li {
+          display: inline-block;
+          list-style-type: none;
+          padding: 8px 14px;
+          border-radius: 8px;
+          background: #FFA90F;
+          color: white;
+          margin: 8px 10px 8px 0px;
+          font-size: 18px;
+          cursor: pointer; }
+          div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text ul li:hover {
+            opacity: 0.8; }
+          @media screen and (min-width: 0px) and (max-width: 740px) {
+            div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text ul li {
+              font-size: 16px; } }
+        div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.text button.view_details {
+          font-size: 18px;
+          padding: 10px 20px;
+          margin: 15px 0px 0px 0px; }
+    div.patient_dashboard div.patient-main div.doctor-single {
+      padding: 50px 35px 20px 35px; }
+      div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.image img {
+        border-radius: 15px;
+        max-width: 400px;
+        min-width: 250px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.image img {
+            min-width: 260px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.image img {
+            min-width: 220px; } }
+      div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.text {
+        margin: 15px 0px 0px 0px; }
+        div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.text h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 25px; }
+        div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.text p {
+          margin: 0;
+          padding: 0; }
+        div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.text ul {
+          margin: 15px 0px; }
+          div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.text ul li {
+            list-style-type: lower-latin; }
+      div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover ul.doctor-skills li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 8px 14px;
+        border-radius: 8px;
+        background: #FFA90F;
+        color: white;
+        margin: 8px 10px 8px 0px;
+        font-size: 18px;
+        cursor: pointer; }
+        div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover ul.doctor-skills li:hover {
+          opacity: 0.8; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover ul.doctor-skills li {
+            font-size: 16px; } }
+
+div.patient-appointment {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  background: white;
+  padding: 20px 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+  div.patient-appointment > header {
+    padding: 10px 25px;
+    border-bottom: 1px solid #E7E9EE; }
+  div.patient-appointment div.table-container {
+    margin: 0;
+    padding: 0; }
+    div.patient-appointment div.table-container table.doc-available {
+      padding: 15px 0px 0px 0px; }
+      div.patient-appointment div.table-container table.doc-available > thead {
+        border-bottom: 1px solid #E7E9EE; }
+        div.patient-appointment div.table-container table.doc-available > thead tr th {
+          border: none;
+          padding: 20px 25px; }
+      div.patient-appointment div.table-container table.doc-available > tbody tr {
+        border-bottom: 1px solid #E7E9EE;
+        transition: all 0.3s ease;
+        cursor: pointer; }
+        div.patient-appointment div.table-container table.doc-available > tbody tr:hover {
+          box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05); }
+        div.patient-appointment div.table-container table.doc-available > tbody tr td {
+          padding: 20px 25px; }
+          div.patient-appointment div.table-container table.doc-available > tbody tr td img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+          div.patient-appointment div.table-container table.doc-available > tbody tr td span {
+            padding-left: 8px; }
+
+div.pharmacy {
+  margin: 30px 0px; }
+  div.pharmacy div.pharmacy-header {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding: 20px 15px; }
+    div.pharmacy div.pharmacy-header div.reset {
+      margin: 15px 0px 0px 0px; }
+  div.pharmacy div.pharmacy-main {
+    margin: 35px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding: 20px 15px;
+    padding-left: 0px;
+    padding-right: 0px; }
+    div.pharmacy div.pharmacy-main > header {
+      padding: 0px 20px 10px 20px;
+      border-bottom: 1px solid #E7E9EE; }
+      div.pharmacy div.pharmacy-main > header h2 {
+        margin: 0;
+        padding: 0; }
+      div.pharmacy div.pharmacy-main > header p {
+        margin: 0;
+        padding: 0; }
+    div.pharmacy div.pharmacy-main div.drugs {
+      padding: 10px 20px;
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0px 30px;
+      gap: 30px 35px;
+      margin-top: 35px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        div.pharmacy div.pharmacy-main div.drugs {
+          display: grid;
+          justify-content: space-between;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 0px 30px;
+          gap: 30px 35px; } }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.pharmacy div.pharmacy-main div.drugs {
+          display: grid;
+          justify-content: space-between;
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+          gap: 0px 30px;
+          gap: 30px 35px; } }
+      div.pharmacy div.pharmacy-main div.drugs div.drug {
+        border-radius: 20px;
+        box-shadow: 0px 0px 10px rgba(41, 44, 50, 0.1); }
+        div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-top div.drug-top-image img {
+          width: 100%;
+          height: 270px;
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px; }
+        div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom {
+          padding: 15px 20px; }
+          @media screen and (min-width: 0px) and (max-width: 991px) {
+            div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom {
+              padding: 15px 10px; } }
+          div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom h3 {
+            margin: 0;
+            padding: 0; }
+          div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom p {
+            margin: 0;
+            padding: 0; }
+          div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom p.drug-price {
+            margin-top: 5px; }
+          div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom button {
+            margin: 10px 0px;
+            font-size: 18px;
+            padding: 10px 20px; }
+          div.pharmacy div.pharmacy-main div.drugs div.drug div.drug-bottom input[type="submit"] {
+            margin-top: 15px; }
+    div.pharmacy div.pharmacy-main div#drug-single {
+      padding: 50px 35px 20px 35px; }
+      div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.image img {
+        border-radius: 15px;
+        max-width: 400px;
+        min-width: 250px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+        @media screen and (min-width: 0px) and (max-width: 991px) {
+          div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.image img {
+            min-width: 260px; } }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.image img {
+            min-width: 220px; } }
+      div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.text {
+        margin: 15px 0px 0px 0px; }
+        div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.text h3 {
+          margin: 0;
+          padding: 0;
+          font-size: 25px; }
+        div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.text p {
+          margin: 0;
+          padding: 0; }
+        div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.text ul {
+          margin: 15px 0px; }
+          div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.text ul li {
+            list-style-type: lower-latin; }
+      div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main h4 {
+        margin: 0;
+        padding: 0;
+        line-height: 10px;
+        padding: 20px 0px 0px 0px; }
+      div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main input[type="submit"] {
+        margin-top: 15px; }
+
+nav.pagination {
+  margin: 25px 0px 0px 0px;
+  padding: 0px 0px 0px 10px; }
+
+div.profile-top {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  background: white;
+  padding: 20px 15px;
+  margin: 0px; }
+  div.profile-top > div.image {
+    margin: 0;
+    padding: 0;
+    padding: 20px 0px 0px 0px; }
+    div.profile-top > div.image > img {
+      border-radius: 10px;
+      min-width: 260px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.profile-top > div.image > img {
+          min-width: 220px; } }
+  div.profile-top > div.text p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6em; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.profile-top > div.text p {
+        font-size: 16px; } }
+  div.profile-top > div.text ul.skills li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: #FFA90F;
+    color: white;
+    margin: 8px 10px 8px 0px;
+    font-size: 18px;
+    cursor: pointer; }
+    div.profile-top > div.text ul.skills li:hover {
+      opacity: 0.8; }
+    @media screen and (min-width: 0px) and (max-width: 740px) {
+      div.profile-top > div.text ul.skills li {
+        font-size: 16px; } }
+  div.profile-top > div.text div.buttons {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start; }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      div.profile-top > div.text div.buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        align-items: flex-start; } }
+    div.profile-top > div.text div.buttons a.edit-profile {
+      margin-left: 10px; }
+      @media screen and (min-width: 0em) and (max-width: 479px) {
+        div.profile-top > div.text div.buttons a.edit-profile {
+          margin-left: 0px;
+          margin-top: 10px; } }
+
+div.profile-bottom {
+  margin: 20px 0px; }
+  div.profile-bottom > div {
+    margin: 40px 0px; }
+  div.profile-bottom div.carts {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding: 20px 15px;
+    margin: 20px 0px;
+    padding-left: 0px;
+    padding-right: 0px; }
+
+div.notifications {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  background: white;
+  padding: 20px 15px;
+  margin-top: 20px;
+  padding: 25px 0px;
+  border-radius: 20px; }
+  div.notifications > header {
+    padding: 0px 15px 15px 15px;
+    border-bottom: 1px solid #E7E9EE; }
+  div.notifications div.messages_container {
+    margin: 0;
+    padding: 0; }
+    div.notifications div.messages_container div.message {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 15px 15px;
+      border-bottom: 1px solid #E7E9EE; }
+      div.notifications div.messages_container div.message p {
+        margin: 0;
+        padding: 0; }
+      div.notifications div.messages_container div.message div.action button {
+        font-size: 18px;
+        padding: 12px 15px; }
+        @media screen and (min-width: 0px) and (max-width: 740px) {
+          div.notifications div.messages_container div.message div.action button {
+            font-size: 18px;
+            padding: 0.375rem 0.75rem; } }
+    div.notifications div.messages_container div.unread {
+      background: #f8f9fa; }
+  div.notifications div.message-single {
+    padding: 50px 35px 20px 35px; }
+    div.notifications div.message-single h3 {
+      margin: 0;
+      padding: 0; }
+    div.notifications div.message-single div {
+      color: #64607D; }
+    div.notifications div.message-single p {
+      color: #64607D;
+      margin: 0;
+      padding: 0; }
+
+div.add_availability {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  background: white;
+  padding: 20px 15px;
+  padding: 25px 0px;
+  border-radius: 20px; }
+  div.add_availability > header {
+    padding: 0px 15px 15px 15px;
+    border-bottom: 1px solid #E7E9EE; }
+  div.add_availability div.available_bottom {
+    margin: 0;
+    padding: 0;
+    padding: 15px 15px; }
+    div.add_availability div.available_bottom button {
+      font-size: 18px;
+      padding: 10px 15px; }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        div.add_availability div.available_bottom button {
+          font-size: 16px; } }
+    div.add_availability div.available_bottom form {
+      margin: 20px 0px; }
+      div.add_availability div.available_bottom form input[type="submit"] {
+        margin-top: 15px;
+        padding: 10px 15px; }
+
+div.available_appointment {
+  margin-top: 30px; }
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  width: 100%; }
+  nav div.collapse {
+    display: flex;
+    justify-content: flex-end; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      nav div.collapse {
+        justify-content: flex-start; } }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    nav li.nav-drop {
+      position: relative; } }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    nav a.nav-drop {
+      display: block;
+      position: absolute;
+      top: 20px;
+      left: 80px; } }
+  nav span.nav-mix {
+    margin-right: 10px; }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      nav span.nav-mix {
+        margin: 0px 10px 0px 0px;
+        display: block; } }
+  nav.mainnav a.navbar-brand img {
+    max-width: 60px;
+    max-height: 40px;
+    object-fit: cover; }
+  nav.mainnav a.navbar-brand span {
+    margin-left: 10px;
+    line-height: 1.308em;
+    font-size: 25px;
+    color: #292C32; }
+  nav.nav-position {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    z-index: 4; }
+  nav div.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px; }
+    @media screen and (min-width: 0em) and (max-width: 479px) {
+      nav div.container-fluid {
+        padding-left: 12px; } }
+    nav div.container-fluid a.navbar-brand {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.3s ease; }
+      nav div.container-fluid a.navbar-brand:hover {
+        transform: scale(0.95); }
+    @media screen and (min-width: 0px) and (max-width: 991px) {
+      nav div.container-fluid {
+        padding-top: 20px;
+        padding-bottom: 20px; } }
+    nav div.container-fluid div.responsive-nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between; }
+    nav div.container-fluid div ul li.nav-li {
+      margin-right: 35px; }
+    nav div.container-fluid div ul li {
+      list-style-type: none;
+      transition: all 0.3s ease;
+      margin-right: 35px; }
+      nav div.container-fluid div ul li a {
+        color: rgba(41, 44, 50, 0.7);
+        font-size: 16px;
+        vertical-align: middle;
+        text-decoration: none; }
+        nav div.container-fluid div ul li a:hover {
+          color: #eeca86;
+          transition: all 0.5s ease; }
+        nav div.container-fluid div ul li a#navbarDropdown {
+          margin-right: 30px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        nav div.container-fluid div ul li {
+          padding: 0px 0px 0px 0px; } }
+    nav div.container-fluid div ul li.link_show {
+      display: none; }
+      @media screen and (min-width: 0em) and (max-width: 479px) {
+        nav div.container-fluid div ul li.link_show {
+          display: block; } }
+    nav div.container-fluid a.contact1 {
+      display: none;
+      margin-right: 35px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        nav div.container-fluid a.contact1 {
+          display: block; } }
+      @media screen and (min-width: 0em) and (max-width: 479px) {
+        nav div.container-fluid a.contact1 {
+          display: none; } }
+    nav div.container-fluid a.contact2 {
+      margin-left: 35px; }
+      @media screen and (min-width: 0px) and (max-width: 991px) {
+        nav div.container-fluid a.contact2 {
+          display: none; } }
+    nav div.container-fluid a.contact-responsive {
+      display: none; }
+      @media screen and (min-width: 0px) and (max-width: 740px) {
+        nav div.container-fluid a.contact-responsive {
+          display: inline-block; } }
+
+button {
+  transition: all 0.5s ease; }
+
+div#doctor {
+  display: none; }
+
+ul.searchoptions {
+  display: none;
+  width: 300px; }
+
+ul.searchoptions li {
+  cursor: pointer; }
+
+form#availableform {
+  display: none; }
+
+p#formerror {
+  display: none; }
+
+input[type="submit"] {
+  transition: all 0.5s ease;
+  opacity: 0.7; }
+
+ul.available li,
+ul.doc-available li,
+ul.patient-appointments li {
+  margin: 10px 0px; }
+
+div.active-message {
+  right: 0;
+  pointer-events: all;
+  opacity: 1; }
+
+div.doctor-single,
+div#drug-single,
+div.message-single {
+  position: fixed;
+  padding: 35px 10px;
+  top: 0px;
+  right: 0px;
+  width: 650px;
+  height: 100vh;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: all 1s ease;
+  border: 1px solid #E7E9EE;
+  border-right: none;
+  background: white;
+  z-index: 5; }
+  div.doctor-single > div,
+  div#drug-single > div,
+  div.message-single > div {
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll; }
+  div.doctor-single button.cancel-single,
+  div#drug-single button.cancel-single,
+  div.message-single button.cancel-single {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 30px;
+    color: #292C32;
+    background: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none; }
+  @media screen and (min-width: 0px) and (max-width: 740px) {
+    div.doctor-single,
+    div#drug-single,
+    div.message-single {
+      width: 100%; } }
+
+ul.pagination li {
+  cursor: pointer; }
+
+div#drug-single div.image img {
+  min-width: 300px;
+  max-width: 400px;
+  max-height: 350px;
+  border-radius: 20px; }
