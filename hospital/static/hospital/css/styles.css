@@ -1806,7 +1806,8 @@ div.profile-top {
     div.profile-top > div.image > img {
       border-radius: 10px;
       min-width: 260px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+      max-width: 100%; }
       @media screen and (min-width: 0px) and (max-width: 740px) {
         div.profile-top > div.image > img {
           min-width: 220px; } }

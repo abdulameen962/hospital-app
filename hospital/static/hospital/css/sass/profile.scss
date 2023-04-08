@@ -8,6 +8,7 @@ div.profile-top {
             border-radius: 10px;
             min-width: 260px;
             box-shadow: $imagestand;
+            max-width: 100%;
             @include respond(lphone) {
                 min-width: 220px;
             }
