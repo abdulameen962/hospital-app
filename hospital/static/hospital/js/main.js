@@ -91,8 +91,8 @@ function editDocProfile(id, first_name, last_name, profilepic) {
                 }
             }
             doc.className = "doctor-profile row";
-            imagecontainer.className = "image col-sm-12 col-md-4 col-lg-3";
-            textcontainer.className = "text col-sm-12 col-md-8 col-lg-7";
+            imagecontainer.className = "image col-sm-12 col-md-6 col-lg-6";
+            textcontainer.className = "text col-sm-12 col-md-6 col-lg-6";
             textcontainer.append(name, descr, skills, btn);
             imagecontainer.append(img);
             doc.append(imagecontainer, textcontainer);
