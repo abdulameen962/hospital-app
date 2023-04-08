@@ -103,13 +103,11 @@ SITE_ID = 1
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'URL': os.environ.get('DATABASE_URL'),
         'NAME': os.environ.get('DATABASE_NAME'),
         'USER': os.environ.get('DATABASE_USER'),
         'PASSWORD': os.environ.get('DATABASE_PASSWORD'),
         'HOST': os.environ.get('DATABASE_HOST'),
         'PORT': os.environ.get('DATABASE_PORT'),
-
     }
 }
 
@@ -126,7 +124,7 @@ cloudinary.config(
 #     }
 # }
 
-DATABASES['default'] = dj_database_url.config(conn_max_age=600,ssl_require=True)
+# DATABASES['default'] = dj_database_url.config(conn_max_age=600,ssl_require=True)
 
 AUTH_USER_MODEL = 'hospital.User'
 # Password validation
