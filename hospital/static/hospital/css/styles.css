@@ -1563,7 +1563,7 @@ div.patient_dashboard {
               padding: 15px 0px 0px 10px; } }
           div.patient_dashboard div.patient-main div#doctors div.doctor-profile > div.image img {
             border-radius: 15px;
-            max-width: 400px;
+            max-width: 100%;
             min-width: 250px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
             @media screen and (min-width: 0px) and (max-width: 991px) {
@@ -1604,7 +1604,7 @@ div.patient_dashboard {
       padding: 50px 35px 20px 35px; }
       div.patient_dashboard div.patient-main div.doctor-single div.doctor-cover div.image img {
         border-radius: 15px;
-        max-width: 400px;
+        max-width: 100%;
         min-width: 250px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
         @media screen and (min-width: 0px) and (max-width: 991px) {
@@ -1759,7 +1759,7 @@ div.pharmacy {
       padding: 50px 35px 20px 35px; }
       div.pharmacy div.pharmacy-main div#drug-single div.drug-single-main div.image img {
         border-radius: 15px;
-        max-width: 400px;
+        max-width: 100%;
         min-width: 250px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05); }
         @media screen and (min-width: 0px) and (max-width: 991px) {
