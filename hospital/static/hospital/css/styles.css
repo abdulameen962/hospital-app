@@ -1950,9 +1950,7 @@ div.available_appointment {
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  position: relative;
-  overflow-x: hidden; }
+  box-sizing: border-box;}
 
 * {
   margin: 0;
