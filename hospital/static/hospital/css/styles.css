@@ -986,8 +986,6 @@ div.about {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0px 30px;
   gap: 10px 45px;
-  overflow:hidden;
-  width:100%;
   background-image: url("../images/aboutline.svg");
   background-repeat: no-repeat;
   background-size: 85%;
@@ -1016,6 +1014,9 @@ div.about {
     position: absolute;
     top: -50px;
     right: -240px; }
+  @media screen and (min-width: 0px) and (max-width: 991px) {
+    div.about > svg {
+      display:none; } }
   div.about div.about_block {
     height: 210px;
     display: flex;
