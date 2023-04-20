@@ -987,6 +987,7 @@ div.about {
   gap: 0px 30px;
   gap: 10px 45px;
   overflow:hidden;
+  width:100%;
   background-image: url("../images/aboutline.svg");
   background-repeat: no-repeat;
   background-size: 85%;
