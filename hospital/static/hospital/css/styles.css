@@ -986,6 +986,7 @@ div.about {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0px 30px;
   gap: 10px 45px;
+  overflow:hidden;
   background-image: url("../images/aboutline.svg");
   background-repeat: no-repeat;
   background-size: 85%;
