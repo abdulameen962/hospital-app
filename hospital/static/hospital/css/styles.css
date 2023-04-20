@@ -1016,7 +1016,7 @@ div.about {
     right: -240px; }
   @media screen and (min-width: 0px) and (max-width: 991px) {
     div.about > svg {
-      display:none; } }
+      right:0px; } }
   div.about div.about_block {
     height: 210px;
     display: flex;
