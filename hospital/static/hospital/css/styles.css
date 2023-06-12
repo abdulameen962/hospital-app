@@ -1320,7 +1320,7 @@ div.testimonials {
     left: 400px; }
     @media screen and (min-width: 0px) and (max-width: 991px) {
       div.testimonials section.testimonial-slider > div button.next {
-        left: 260px; } }
+        left: 95%; } }
     @media screen and (min-width: 0px) and (max-width: 740px) {
       div.testimonials section.testimonial-slider > div button.next {
         left: 80%; } }
@@ -1663,7 +1663,7 @@ div.patient-appointment {
         border-bottom: 1px solid #E7E9EE; }
         div.patient-appointment div.table-container table.doc-available > thead tr th {
           border: none;
-          padding: 20px 25px; }
+          padding: 10px 15px 10px 10px; }
       div.patient-appointment div.table-container table.doc-available > tbody tr {
         border-bottom: 1px solid #E7E9EE;
         transition: all 0.3s ease;
@@ -1671,7 +1671,7 @@ div.patient-appointment {
         div.patient-appointment div.table-container table.doc-available > tbody tr:hover {
           box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.05); }
         div.patient-appointment div.table-container table.doc-available > tbody tr td {
-          padding: 20px 25px; }
+          padding: 10px 15px 10px 10px; }
           div.patient-appointment div.table-container table.doc-available > tbody tr td img {
             width: 40px;
             height: 40px;
